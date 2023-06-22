@@ -1,0 +1,5 @@
+build/
+dist/
+**/*.exe
+output_files/
+config.py
