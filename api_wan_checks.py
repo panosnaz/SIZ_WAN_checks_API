@@ -158,6 +158,24 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
         # NTPv4 ping test from vlan3100 - voice vlan
         for host_name, host_ip in voice_vlan_hosts.items():
 
+            # the vlan3100_ping test will only be performed for IPv6 addresses when the tenant_type is "APLOS"
+            if tenant_type == "APLOS":
+                if "v6" in host_name:  # Checking if it's an IPv6 address
+                    vlan3100_ping_v6 = f"ping {host_ip} source vlan3100"
+                    vlan3100_output_v6 = net_connect.send_command(vlan3100_ping_v6)
+                    vlan3100_ping_output_v6 = vlan3100_ping_v6 + "\n" + vlan3100_output_v6 + "\n"
+                    # Append the vlan3100_ping_output_v6 to the list
+                    vlan3100_ping_outputs.append(vlan3100_ping_output_v6)
+                    # Check if the ping was successful
+                    if "Success rate is 100 percent" in vlan3100_output_v6 or "Success rate is 80 percent" in vlan3100_output_v6:
+                        cprint(f"Ping from vlan3100 to {host_name} ({host_ip}): successful","green")
+                        vlan3100_ping_results.append(f"Ping from vlan3100 to {host_name} ({host_ip}): successful")
+                    else:
+                        cprint(f"Ping from vlan3100 to {host_name} ({host_ip}): failed","red")
+                        vlan3100_ping_results.append(f"Ping from vlan3100 to {host_name} ({host_ip}): failed")
+                        PING_REPORT = "FAIL"
+                continue
+
             vlan3100_ping = f"ping {host_ip} source vlan3100"
             vlan3100_output = net_connect.send_command(vlan3100_ping)
             vlan3100_ping_output = vlan3100_ping + "\n" + vlan3100_output + "\n"
@@ -171,7 +189,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
                 cprint(f"Ping from vlan3100 to {host_name} ({host_ip}): failed","red")
                 vlan3100_ping_results.append(f"Ping from vlan3100 to {host_name} ({host_ip}): failed")
                 PING_REPORT = "FAIL"
-        
+
+            
         # Απλος Ασυμμετρος
         if tenant_type == "APLOS":
             # NTPv4 ping test from vlan3000 - data vlan
