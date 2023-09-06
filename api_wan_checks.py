@@ -456,8 +456,23 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     return json_return_output
 
 
+
+AUTH_TOKEN = "d94cb90ee88b7631001f06d3658132d3"
+
 @app.route('/wanchecks/', methods=['POST'])
 def run_health_checks():
+    # Check if the 'Authorization' header is present in the request
+    if 'Authorization' not in request.headers:
+        return jsonify({"error": "Authorization header missing"}), 401
+
+    # Get the token from the 'Authorization' header
+    provided_token = request.headers['Authorization']
+
+    # Check if the provided token matches the expected token
+    if provided_token != f"Bearer {AUTH_TOKEN}":
+        return jsonify({"error": "Invalid authorization token"}), 401
+
+    # The token is valid, proceed with processing the request
     post_data = request.json
     device_ip = post_data['device_ip']
     tenant_type = post_data['tenant_type']
