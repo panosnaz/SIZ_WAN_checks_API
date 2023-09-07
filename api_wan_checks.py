@@ -460,9 +460,6 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     return json_return_output
 
 
-
-AUTH_TOKEN = "d94cb90ee88b7631001f06d3658132d3"
-
 @app.route('/wanchecks/', methods=['POST'])
 def run_health_checks():
     # Check if the 'Authorization' header is present in the request
