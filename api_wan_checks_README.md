@@ -42,7 +42,11 @@ Before running the script, make sure you have the following prerequisites:
 	- Request body: JSON payload containing the required parameters
 	- In the Headers section, the Content-Type header value must be set to application/json 
 
-6. The script will connect to the specified device, perform health checks, and return a health check report and a show run text files in the json response.
+6. 
+- The script will connect to the specified device, perform health checks, and return a health check report and a show run text files in the json response.
+- The code always checks the 'Authorization' header upon a POST API call and validates the provided token. 
+- If the 'Authorization' header is present and the provided token matches `AUTH_TOKEN`, the code will proceed with processing the request. 
+- Otherwise, it will return a 401 Unauthorized response with an error message.
 
 	
 ### **Endpoints**

@@ -466,10 +466,10 @@ def run_health_checks():
         return jsonify({"error": "Authorization header missing"}), 401
 
     # Get the token from the 'Authorization' header
-    provided_token = request.headers['Authorization']
+    provided_token = request.headers.get('Authorization')
 
     # Check if the provided token matches the expected token
-    if provided_token != f"Bearer {AUTH_TOKEN}":
+    if provided_token != AUTH_TOKEN:
         return jsonify({"error": "Invalid authorization token"}), 401
 
     # The token is valid, proceed with processing the request
