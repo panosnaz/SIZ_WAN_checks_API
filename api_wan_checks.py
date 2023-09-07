@@ -18,9 +18,6 @@ from flask import Flask, request, jsonify
 import json
 from config import username, password
 
-from dotenv import load_dotenv
-# Load environment variables from .env file
-load_dotenv()
 
 # bgp neighbors for Aplos & PSD asymmetros based on provider
 ote_bgp_neighbor = '83.235.1.100'
@@ -462,6 +459,9 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
 
 @app.route('/wanchecks/', methods=['POST'])
 def run_health_checks():
+    
+    AUTH_TOKEN = "d94cb90ee88b7631001f06d3658132d3"
+
     # Check if the 'Authorization' header is present in the request
     if 'Authorization' not in request.headers:
         return jsonify({"error": "Authorization header missing"}), 401
