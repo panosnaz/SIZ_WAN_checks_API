@@ -30,9 +30,11 @@ Before running the script, make sure you have the following prerequisites:
 4. Run the script:
 `python wan_checks.py`
 
-- You can specify the provider as "ote", "wind", "nova", or "vodafone" when running the health checks.
-- You can specify the tenant_type as "aplos", "psd asymmetros" and "mmm" when running the health checks. 
+- You can specify the provider as "OTE", "WIND", "NOVA", or "VODAFONE" when running the health checks.
+- You can specify the tenant_type as "APLOS", "PSD" and "MMM" when running the health checks. 
 - The script will generate a health checks output file and a show run file in a directory named after the device hostname.
+- If tenant is APLOS or PSD, the script runs bgp tests on a pre-defined bgp neighbor IPs. 
+- In case of a MMM tenant, the POST API should include the appropriate list of BGP neighbor IPs.
 
 5. (Optional) To upload the output to SharePoint, update the SharePoint configuration details (sharepoint_url, username, password, sharepoint_folder) and uncomment the def_sharepoint(hostname) function call at the end of the main() function.
 

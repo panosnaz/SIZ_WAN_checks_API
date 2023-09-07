@@ -43,6 +43,8 @@ Before running the script, make sure you have the following prerequisites:
 	- In the Headers section, the Content-Type header value must be set to application/json 
 
 6. The script will connect to the specified device, perform health checks, and return a health check report and a show run text files in the json response.
+If tenant is APLOS or PSD, the script runs bgp tests on a pre-defined bgp neighbor IPs. 
+In case of a MMM tenant, the POST API should include the appropriate list of BGP neighbor IPs.
 
 	
 ### **Endpoints**
@@ -57,7 +59,7 @@ The request body should be a JSON object with the following parameters:
 
 `tenant_type` (string): The type of tenant (e.g., "APLOS", "PSD", "MMM").
 
-`device_ip` : The IP address of the network device.
+`device_ip` : The login IP address of the network device.
 
 `provider` (string): The network provider (e.g., "OTE", "WIND", "NOVA", "VODAFONE").
 
@@ -94,9 +96,9 @@ The API will respond with a JSON object containing below network health check re
 `
 {
   "device_ip": "192.168.0.1",
-  "tenant_type": "APLOS",
+  "tenant_type": "MMM",
   "provider": "OTE",
-  "bgp_neighbor": "80.80.80.80"
+  "bgp_neighbor": "80.80.80.80,90.90.90.90"
 }
 `
 
