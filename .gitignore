@@ -5,6 +5,9 @@ cert/
 output_files/
 config.py
 .env
-.pem
-.docx
-.drawio
+**/*.pem
+**/*.docx
+**/*.drawio
+**/*.bkp
+**/*.dtmp
+
