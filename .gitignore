@@ -1,6 +1,10 @@
 build/
 dist/
+cert/
 **/*.exe
 output_files/
 config.py
 .env
+.pem
+.docx
+.drawio

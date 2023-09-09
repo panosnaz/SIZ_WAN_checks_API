@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------
 #
 #            Network Health Check API Script using Python3, JSON and Power Automate
 #
@@ -6,9 +6,9 @@
 # It connects to the devices, retrieves relevant information, and performs checks related to 
 # interface status, ping connectivity, BGP routing, and more.
 # 
-# The JSON POST request to the API endpoint can be made by using Postman or Power Automate, 
-# to the request URL: http://localhost:5000/wanchecks/.
-# ---------------------------------------------------------------------------------------------------
+# The JSON POST request can be made by using Postman or Power Automate, to the URL: http://localhost:5000/wanchecks/
+# The code always checks the 'Authorization' header upon a POST API call and validates the provided token
+# -----------------------------------------------------------------------------------------------------------
 
 from datetime import datetime
 from netmiko import ConnectHandler
@@ -230,6 +230,9 @@ def asym_bgp_checks(device, provider, net_connect):
     bgp_results = []
     bgp_neighbor_output_ = []
     BGP_REPORT = "OK"   # Assume all BGP neighborships are UP
+
+    # Convert the provider variable to uppercase because provider data from the GET API is in lower-case
+    provider = provider.upper()
 
     if provider == "OTE":
         ipv4_neighbor = ote_bgp_neighbor
@@ -459,7 +462,8 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
 
 @app.route('/wanchecks/', methods=['POST'])
 def run_health_checks():
-    
+
+    # -----------------------------------------------------------------
     AUTH_TOKEN = "d94cb90ee88b7631001f06d3658132d3"
 
     # Check if the 'Authorization' header is present in the request
@@ -472,8 +476,10 @@ def run_health_checks():
     # Check if the provided token matches the expected token
     if provided_token != AUTH_TOKEN:
         return jsonify({"error": "Invalid authorization token"}), 401
-
+    
     # The token is valid, proceed with processing the request
+    # -----------------------------------------------------------------
+
     post_data = request.json
     device_ip = post_data['device_ip']
     tenant_type = post_data['tenant_type']
