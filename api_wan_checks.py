@@ -1,37 +1,47 @@
-# -----------------------------------------------------------------------------------------------------------
-#
-#            Network Health Check API Script using Python3, JSON and Power Automate
-#
-# This script performs various health checks on network devices using Netmiko library and Flask. 
-# It connects to the devices, retrieves relevant information, and performs checks related to 
-# interface status, ping connectivity, BGP routing, and more.
-# 
-# The JSON POST request can be made by using Postman or Power Automate, to the URL: http://localhost:5000/wanchecks/
-# The code always checks the 'Authorization' header upon a POST API call and validates the provided token
-# -----------------------------------------------------------------------------------------------------------
+"""
+Network Health Check API Script using Python3, JSON, and Power Automate
 
+This script performs various health checks on network devices using the Netmiko library and Flask.
+It connects to the devices, retrieves relevant information, and performs checks related to
+interface status, ping connectivity, BGP routing, and more.
+
+The JSON POST request can be made by using Postman or Power Automate to the URL: http://localhost:5000/wanchecks/
+The code always checks the 'Authorization' header upon a POST API call and validates the provided token.
+
+This script is divided into several functions for different aspects of health checks, including
+interface status, ping tests, and BGP checks. Each function is documented to describe its purpose
+and usage.
+
+Usage:
+1. Ensure you have the necessary dependencies installed (Netmiko, Flask, etc.).
+2. Start the Flask application using 'python script_name.py'.
+3. Send a POST request with appropriate JSON data to http://localhost:5000/wanchecks/ to perform health checks.
+
+For detailed information on each function and usage, refer to the respective docstrings within the code.
+
+# EXE Version: api_wan_checks_v1.3.1.exe
+
+"""
+
+
+# Import necessary libraries
 from datetime import datetime
 from netmiko import ConnectHandler
 import re
 from termcolor import cprint
 from flask import Flask, request, jsonify
 import json
-from config import username, password
+from config import username, password  # Import credentials from config.py
+from config import AUTH_TOKEN          # Import API token
+# Import the IP addresses of BGP neighbors for different providers for for Aplos & PSD tenants
+from config import ote_bgp_neighbor, wind_bgp_neighbor, wind_bgp_v6_neighbor, nova_bgp_neighbor, nova_bgp_v6_neighbor, vodafone_bgp_neighbor, vodafone_bgp_v6_neighbor
 
-
-# bgp neighbors for Aplos & PSD asymmetros based on provider
-ote_bgp_neighbor = '83.235.1.100'
-wind_bgp_neighbor = "172.24.63.225"
-wind_bgp_v6_neighbor = "2A10:D000:60:10::225"
-nova_bgp_neighbor = "172.26.255.211"
-nova_bgp_v6_neighbor = "2A10:D000:40:0:172:26:255:211"
-vodafone_bgp_neighbor = "172.28.255.255"
-vodafone_bgp_v6_neighbor = "2A10:D000:FF:FFFF::1"
 
 # Current time and formats it to "Year/Month/Day__Time".
 timestamp_format = "%Y-%m-%d %H_%M"
 timestamp = datetime.now().strftime(timestamp_format)
 
+# Initialize Flask application
 app = Flask(__name__)
 
 # Create a list to hold the threads
@@ -39,6 +49,17 @@ threads = []
 
 # inteface tests 
 def def_int_checks(tenant_type, device, net_connect):
+    """
+    Perform interface status checks for the given tenant type.
+
+    Args:
+        tenant_type (str): The type of tenant (e.g., 'APLOS', 'PSD').
+        device (dict): A dictionary containing device connection details.
+        net_connect (object): A Netmiko connection object.
+
+    Returns:
+        tuple: A tuple containing interface list, interface results, interface outputs, and interface report.
+    """
     #with ConnectHandler(**device) as net_connect:  
     interface_results = []
     interface_list = []
@@ -81,7 +102,20 @@ def def_int_checks(tenant_type, device, net_connect):
 
 # PING tests
 def def_ping_checks(device, net_connect, interface_list, tenant_type):
- # Initialize the variables with default values
+    """
+    Perform ping tests for various hosts using different interfaces.
+
+    Args:
+        device (dict): A dictionary containing device connection details.
+        net_connect (object): A Netmiko connection object.
+        interface_list (list): List of valid interfaces.
+        tenant_type (str): The type of tenant (e.g., 'APLOS', 'PSD').
+
+    Returns:
+        tuple: A tuple containing ping report, ping results, and ping outputs.
+    """
+
+    # Initialize the variables with default values
     Lo0_ping_output = ""        
     vlan200_ping_output = ""
     vlan3000_ping_output = ""
@@ -227,6 +261,18 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
                 
 # BGP checks
 def asym_bgp_checks(device, provider, net_connect):
+    """
+    Perform BGP checks for asymmetric tenants (APLOS, PSD).
+
+    Args:
+        device (dict): A dictionary containing device connection details.
+        provider (str): The network provider (e.g., 'OTE', 'WIND').
+        net_connect (object): A Netmiko connection object.
+
+    Returns:
+        tuple: A tuple containing BGP results, BGP neighbor output, and BGP report.
+    """
+    
     bgp_results = []
     bgp_neighbor_output_ = []
     BGP_REPORT = "OK"   # Assume all BGP neighborships are UP
@@ -318,6 +364,18 @@ def asym_bgp_checks(device, provider, net_connect):
 
 # MMM Checks
 def mmm_bgp_checks(device, bgp_neighbor, net_connect):
+    """
+    Perform BGP checks for MMM tenants.
+
+    Args:
+        device (dict): A dictionary containing device connection details.
+        bgp_neighbor (str): Comma-separated list of BGP neighbors.
+        net_connect (object): A Netmiko connection object.
+
+    Returns:
+        tuple: A tuple containing BGP results, BGP neighbor output, and BGP report.
+    """
+
     print(f"BGP neighbor(s): {bgp_neighbor}")  
 
     #with ConnectHandler(**device) as net_connect:
@@ -364,6 +422,16 @@ def mmm_bgp_checks(device, bgp_neighbor, net_connect):
     return bgp_results, '\n'.join(bgp_neighbor_output), BGP_REPORT
 
 def device_login(device_ip):   
+    """
+    Establish a Netmiko SSH connection to the device.
+
+    Args:
+        device_ip (str): The IP address of the device.
+
+    Returns:
+        tuple: A tuple containing Netmiko connection object, hostname, and device details.
+    """
+
     device = {
         "device_type": "cisco_ios",
         "ip": device_ip,
@@ -383,6 +451,21 @@ def device_login(device_ip):
         return
 
 def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
+    """
+    Main function to execute health checks on the network device.
+
+    Args:
+        tenant_type (str): The type of tenant (e.g., 'APLOS', 'PSD').
+        device (dict): A dictionary containing device connection details.
+        hostname (str): The hostname of the network device.
+        net_connect (object): A Netmiko connection object.
+        provider (str): The network provider (e.g., 'OTE', 'WIND').
+        bgp_neighbor (str): Comma-separated list of BGP neighbors.
+
+    Returns:
+        dict: A dictionary containing the results of health checks.
+    """
+
     LICENSE_REPORT = "OK" 
 
     # Extract S/N & image
@@ -464,8 +547,8 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
 def run_health_checks():
 
     # -----------------------------------------------------------------
-    AUTH_TOKEN = "d94cb90ee88b7631001f06d3658132d3"
-
+    # API Token 
+    #
     # Check if the 'Authorization' header is present in the request
     if 'Authorization' not in request.headers:
         return jsonify({"error": "Authorization header missing"}), 401

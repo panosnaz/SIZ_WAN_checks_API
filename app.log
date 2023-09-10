@@ -1,0 +1,3232 @@
+2023-09-10 15:18:20,484 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-10 15:18:20,485 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:18:20,490 [INFO] -  * Restarting with stat
+2023-09-10 15:18:21,678 [WARNING] -  * Debugger is active!
+2023-09-10 15:18:21,686 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:19:51,531 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-10 15:19:51,531 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:19:51,535 [INFO] -  * Restarting with stat
+2023-09-10 15:19:52,679 [WARNING] -  * Debugger is active!
+2023-09-10 15:19:52,686 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:20:22,606 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-10 15:20:22,606 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:20:22,610 [INFO] -  * Restarting with stat
+2023-09-10 15:20:23,835 [WARNING] -  * Debugger is active!
+2023-09-10 15:20:23,844 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:20:29,045 [INFO] - 127.0.0.1 - - [10/Sep/2023 15:20:29] "[31m[1mPOST /wanchecks/ HTTP/1.1[0m" 401 -
+2023-09-10 15:20:40,709 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:20:40,761 [INFO] -  * Restarting with stat
+2023-09-10 15:20:41,824 [WARNING] -  * Debugger is active!
+2023-09-10 15:20:41,830 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:20:45,619 [DEBUG] - starting thread (client mode): 0x7b852a40
+2023-09-10 15:20:45,619 [DEBUG] - Local version/idstring: SSH-2.0-paramiko_2.12.0
+2023-09-10 15:20:45,705 [DEBUG] - Remote version/idstring: SSH-2.0-Cisco-1.25
+2023-09-10 15:20:45,706 [INFO] - Connected (version 2.0, client Cisco-1.25)
+2023-09-10 15:20:45,707 [DEBUG] - === Key exchange possibilities ===
+2023-09-10 15:20:45,707 [DEBUG] - kex algos: ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group14-sha1
+2023-09-10 15:20:45,707 [DEBUG] - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+2023-09-10 15:20:45,708 [DEBUG] - client encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+2023-09-10 15:20:45,708 [DEBUG] - server encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+2023-09-10 15:20:45,708 [DEBUG] - client mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-10 15:20:45,708 [DEBUG] - server mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-10 15:20:45,708 [DEBUG] - client compress: none
+2023-09-10 15:20:45,708 [DEBUG] - server compress: none
+2023-09-10 15:20:45,708 [DEBUG] - client lang: <none>
+2023-09-10 15:20:45,708 [DEBUG] - server lang: <none>
+2023-09-10 15:20:45,708 [DEBUG] - kex follows: False
+2023-09-10 15:20:45,708 [DEBUG] - === Key exchange agreements ===
+2023-09-10 15:20:45,708 [DEBUG] - Kex: ecdh-sha2-nistp256
+2023-09-10 15:20:45,708 [DEBUG] - HostKey: rsa-sha2-512
+2023-09-10 15:20:45,709 [DEBUG] - Cipher: aes128-ctr
+2023-09-10 15:20:45,709 [DEBUG] - MAC: hmac-sha2-256
+2023-09-10 15:20:45,709 [DEBUG] - Compression: none
+2023-09-10 15:20:45,709 [DEBUG] - === End of kex handshake ===
+2023-09-10 15:20:45,929 [DEBUG] - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2023-09-10 15:20:45,929 [DEBUG] - Switch to new keys ...
+2023-09-10 15:20:45,930 [DEBUG] - Adding ssh-rsa host key for 172.23.35.71: b'849d51b63284107b8d528c1b0304d6a5'
+2023-09-10 15:20:46,304 [DEBUG] - userauth is OK
+2023-09-10 15:20:46,454 [INFO] - Authentication (password) successful!
+2023-09-10 15:20:46,454 [DEBUG] - [chan 0] Max packet in: 32768 bytes
+2023-09-10 15:20:46,541 [DEBUG] - [chan 0] Max packet out: 4096 bytes
+2023-09-10 15:20:46,541 [DEBUG] - Secsh channel 0 opened.
+2023-09-10 15:20:46,627 [DEBUG] - [chan 0] Sesch channel 0 request ok
+2023-09-10 15:20:46,713 [DEBUG] - [chan 0] Sesch channel 0 request ok
+2023-09-10 15:20:46,713 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:46,828 [DEBUG] - write_channel: b'terminal width 511\n'
+2023-09-10 15:20:46,828 [DEBUG] - read_channel: 
+
+
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:46,843 [DEBUG] - read_channel: 
+2023-09-10 15:20:46,888 [DEBUG] - read_channel: 
+2023-09-10 15:20:46,903 [DEBUG] - read_channel: 
+2023-09-10 15:20:46,918 [DEBUG] - read_channel: te
+2023-09-10 15:20:46,934 [DEBUG] - read_channel: rminal 
+2023-09-10 15:20:46,950 [DEBUG] - read_channel: width 51
+2023-09-10 15:20:46,965 [DEBUG] - read_channel: 1
+S-HAL-17808-R1#
+2023-09-10 15:20:46,966 [DEBUG] - Pattern found: (terminal width 511) 
+
+
+S-HAL-17808-R1#
+S-HAL-17808-R1#terminal width 511
+2023-09-10 15:20:46,966 [DEBUG] - In disable_paging
+2023-09-10 15:20:46,966 [DEBUG] - Command: terminal length 0
+
+2023-09-10 15:20:46,966 [DEBUG] - write_channel: b'terminal length 0\n'
+2023-09-10 15:20:46,966 [DEBUG] - read_channel: 
+2023-09-10 15:20:46,981 [DEBUG] - read_channel: 
+2023-09-10 15:20:46,996 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,011 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,027 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,043 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,058 [DEBUG] - read_channel: ter
+2023-09-10 15:20:47,074 [DEBUG] - read_channel: minal le
+2023-09-10 15:20:47,089 [DEBUG] - read_channel: ngth 0
+S-HAL-17808-R1#
+2023-09-10 15:20:47,089 [DEBUG] - Pattern found: (terminal\ length\ 0) 
+S-HAL-17808-R1#terminal length 0
+2023-09-10 15:20:47,089 [DEBUG] - 
+S-HAL-17808-R1#terminal length 0
+2023-09-10 15:20:47,089 [DEBUG] - Exiting disable_paging
+2023-09-10 15:20:47,105 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,105 [DEBUG] - Clear buffer detects data in the channel
+2023-09-10 15:20:47,136 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,136 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:47,136 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,151 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,168 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,183 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,199 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,214 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,229 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:47,229 [DEBUG] - Pattern found: (\#|>) 
+S-HAL-17808-R1#
+2023-09-10 15:20:47,244 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,244 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:47,260 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,260 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:47,292 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,292 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:47,323 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,323 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:47,385 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:47,401 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,401 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:47,416 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,417 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:47,449 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:47,463 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,463 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:47,463 [DEBUG] - write_channel: b'show run\n'
+2023-09-10 15:20:47,464 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,478 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,494 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,509 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,524 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,540 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:47,555 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,570 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,586 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,602 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,617 [DEBUG] - read_channel: sh
+2023-09-10 15:20:47,633 [DEBUG] - read_channel: ow run
+Building configuration...
+
+2023-09-10 15:20:47,633 [DEBUG] - Pattern found: (show\ run) 
+S-HAL-17808-R1#show run
+2023-09-10 15:20:47,663 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,695 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,726 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,757 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,788 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,819 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,851 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,881 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,911 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,942 [DEBUG] - read_channel: 
+2023-09-10 15:20:47,973 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,005 [DEBUG] - read_channel: 
+Current configuration : 32823 bytes
+!
+! Last configuration change at 10:41:52 EEST Tue Jul 25 2023
+!
+version 17.6
+service timestamps debug datetime msec
+service timestamps log datetime localtime
+service password-encryption
+service sequence-numbers
+service call-home
+platform qfp utilization monitor load 80
+platform punt-keepalive disable-kernel-core
+platform hardware throughput crypto 50000
+!
+hostname S-HAL-17808-R1
+!
+boot-start-marker
+boot system flash bootflash:c1100-universalk9.17.06.05.SPA.bin
+boot-end-marker
+!
+!
+logging buffered 150000
+no logging console
+no logging monitor
+enable secret 9 $9$PJW70NHw.JoNYE$VFCE9MlUjpUWeob0Y.ejF0tX9KIDQtzPwOZsLik.xWs
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+aaa authorization exec default local 
+aaa authorization network default local 
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone EEST 2 0
+clock summer-time EEST recurring last Sun Mar 3:00 last Sun Oct 4:00
+!
+!
+!
+!
+!
+!
+!
+ip host csms.ddt.gov.gr 84.205.215.32
+ip host csms-preprod.ddt.gov.gr 84.205.215.33
+ip name-server 84.205.218.141 2A10:D000:14:600::D 84.205.219.141 2A10:D000:1C:600::D
+ip domain lookup source-interface Loopback0
+ip domain name ictu.ddt.gov.net
+!
+ip dhcp pool DHCP-DATA-IPv4-pool-3000
+ network 10.46.216.64 255.255.255.224
+ default-router 10.46.216.65 
+ dns-server 84.205.218.140 84.205.219.140 
+!
+!
+!
+login on-success log
+ipv6 unicast-routing
+ipv6 dhcp pool DHCP-DATA-IPv6-pool-3000
+ address prefix 2A10:D001:1811:C500::/64
+ dns-server 2A10:D000:14:600::C
+ dns-server 2A10:D000:1C:600::C
+!
+ipv6 dhcp pool DHCP-VOICE-IPv6-pool-3100
+ address prefix 2A10:D001:2817:5A00::/64
+ dns-server 2A10:D000:14:600::C
+ dns-server 2A10:D000:1C:600::C
+ domain-name cx.ictu.ddt.gov.net
+ vendor-specific 9
+  suboption 1 address 2A10:D000:10:B:6000:0:54CD:D696 2A10:D000:18:5:6000:0:54CD:D6D5
+!
+!
+!
+!
+!
+!
+!
+!
+subscriber templating
+! 
+! 
+! 
+! 
+vtp mode transparent
+!
+
+parameter-map type inspect-global
+ log dropped-packets
+
+parameter-map type inspect AUDIT-TRAIL
+ audit-trail on
+multilink bundle-name authenticated
+!
+flow record netflow-elk
+ description flow-record-elk
+ match ipv4 protocol
+ match ipv4 source address
+ match ipv4 destination address
+ match transport source-port
+ match transport destination-port
+ match interface input
+ match interface output
+ match ipv4 tos
+ collect flow direction
+ collect counter bytes
+ collect counter packets
+ collect transport tcp destination-port
+ collect timestamp absolute last
+ collect transport udp destination-port
+ collect timestamp absolute first
+ collect transport tcp source-port
+ collect transport udp source-port
+ collect timestamp sys-uptime first
+ collect timestamp sys-uptime last
+ collect transport tcp flags
+!
+!
+flow record netflow-elk-v6
+ description flow-record-elk-v6
+ match ipv6 source address
+ match ipv6 destination address
+ match ipv6 protocol
+ match transport source-port
+ match transport destination-port
+ match interface input
+ match interface output
+ collect flow direction
+ collect counter packets
+ collect counter bytes
+ collect transport tcp source-port
+ collect transport tcp destination-port
+ collect timestamp absolute last
+ collect transport udp destination-port
+ collect timestamp absolute first
+ collect transport udp source-port
+ collect timestamp sys-uptime first
+ collect timestamp sys-uptime last
+ collect transport tcp flags
+!
+!
+flow exporter flow-export-elk1
+ description export-to-elk1
+ destination 172.29.139.20
+ source Loopback0
+ transport udp 2055
+ template data timeout 300
+ option interface-table timeout 300
+ option exporter-stats timeout 300
+ option sampler-table timeout 300
+!
+!
+flow exporter flow-export-elk2
+ description export-to-elk2
+ destination 172.29.158.20
+ source Loopback0
+ transport udp 2055
+ template data timeout 300
+ option interface-table timeout 300
+ option exporter-stats timeout 300
+ option sampler-table timeout 300
+!
+!
+flow monitor flow-monitor-elk
+ description datalynk-monitor
+ exporter flow-export-elk1
+ exporter flow-export-elk2
+ statistics packet protocol
+ statistics packet size
+ record netflow-elk
+!
+!
+flow monitor flow-monitor-elk-v6
+ description datalynk-monitor
+ exporter flow-export-elk1
+ exporter flow-export-elk2
+ statistics packet protocol
+ statistics packet size
+ record netflow-elk-v6
+!
+!
+!
+!
+crypto pki trustpoint TP-self-signed-3746016033
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3746016033
+ revocation-check none
+ rsakeypair TP-self-signed-3746016033
+!
+crypto pki trustpoint SLA-TrustPoint
+ enrollment terminal
+ revocation-check crl
+!
+crypto pki trustpoint ddt.gov.gr_sub
+ enrollment terminal
+ usage ssl-server
+ fingerprint 1D102C47C400088295AD604C35CBDEB96042F979
+ revocation-check none
+!
+!
+crypto pki certificate chain TP-self-signed-3746016033
+ certificate self-signed 01
+  30820330 30820218 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33373436 30313630 3333301E 170D3233 30343139 30363335 
+  35385A17 0D333330 34313830 36333535 385A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 37343630 
+  31363033 33308201 22300D06 092A8648 86F70D01 01010500 0382010F 00308201 
+  0A028201 0100C5E0 4356A5C3 0E59EF6B 8ED5069A 629FE6B7 86B8688E A4285DBB 
+  DC71C6DE 8F977C26 E0842371 F905C6A8 65C5A84F 991F1287 1D019AAB BF170648 
+  D2C1E06B EB741F0D 03E03843 A1C948C1 4D44EE76 B9EB7793 69C428D5 B09F6A2C 
+  0890B9EB F1440B6A 25278B57 9FECD91A BCFEED4B 277325F8 34B17B4C A5A19185 
+  3ECF8198 3350B6F5 28BDC2F2 F89FA4DA 6A1BC973 8EC64B4D 662567B3 A960142F 
+  A5817124 E7EFE96B 530D8F99 19EE6208 173E8414 46B98C49 EEB2FBF8 180864B3 
+  18F3CA89 DE51EBB3 79A0AE43 72E255E9 F5F61EBC BAA58B8F 59F9E788 BE4D64A8 
+  D528C63C F9D132BF 6A41F77D 90E6AAA5 E49B0AB7 650E8B69 16082BCF 06F8D802 
+  FA3653AE 278B0203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 
+  301F0603 551D2304 18301680 1408609B 02D2C665 183E16B2 1BBEE895 AADA60B4 
+  76301D06 03551D0E 04160414 08609B02 D2C66518 3E16B21B BEE895AA DA60B476 
+  300D0609 2A864886 F70D0101 05050003 82010100 18A213CC 8968DABB 4A2AC685 
+  D8738185 A914B4E2 ED3CC7B3 E384C044 EA271985 83531471 3F15D933 01BD3DDA 
+  29E82EA8 8835AD3C 2E70BA52 FDC9A904 36C7828B FEC4FADA 5506E38C 2F3E5279 
+  585E0856 A98AD852 339CB227 41E26DBE 14EC4DFE 610CD912 F711BBE0 97F4EEEB 
+  2AC4F134 22802C47 A9AA2E5A 70EB123C EB54FC99 4887739A B27365AC 7AF1B939 
+  C673B1B9 FB1A769A C9A57CD1 0B9E3BA0 56808275 447D19E8 58BD0BED D813870F 
+  6BA7D818 36E698AF F1F3638C 642AACA4 80B794ED 3909716A E869E08C 31C6C332 
+  9597889B C2128570 D3CA1F75 89335F3F F49783A5 5B50C611 0E4E29A3 1977D5A9 
+  1EB899B6 CF5187A3 3BB14CE2 85F8472E F4E887DD
+  	quit
+crypto pki certificate chain SLA-TrustPoint
+ certificate ca 01
+  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030 
+  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363 
+  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934 
+  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305 
+  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720 
+  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 
+  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D 
+  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520 
+  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE 
+  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC 
+  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188 
+  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7 
+  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191 
+  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44 
+  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201 
+  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 14
+2023-09-10 15:20:48,036 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,065 [DEBUG] - read_channel: 49DC85 
+  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500 
+  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905 
+  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B 
+  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8 
+  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C 
+  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B 
+  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678 
+  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB 
+  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0 
+  D697DF7F 28
+  	quit
+crypto pki certificate chain ddt.gov.gr_sub
+ certificate ca 40DB9A6E5B6E827D4804BA4E0AA0BD0F
+  3082070D 308204F5 A0030201 02021040 DB9A6E5B 6E827D48 04BA4E0A A0BD0F30 
+  0D06092A 864886F7 0D01010B 05003081 A6310B30 09060355 04061302 4752310F 
+  300D0603 55040713 06417468 656E7331 44304206 0355040A 133B4865 6C6C656E 
+  69632041 63616465 6D696320 616E6420 52657365 61726368 20496E73 74697475 
+  74696F6E 73204365 72742E20 41757468 6F726974 79314030 3E060355 04031337 
+  48656C6C 656E6963 20416361 64656D69 6320616E 64205265 73656172 63682049 
+  6E737469 74757469 6F6E7320 526F6F74 43412032 30313530 1E170D31 39303331 
+  34313332 3635335A 170D3334 30333130 31333236 35335A30 8186310B 30090603 
+  55040613 02475231 0F300D06 03550407 0C064174 68656E73 31443042 06035504 
+  0A0C3B48 656C6C65 6E696320 41636164 656D6963 20616E64 20526573 65617263 
+  6820496E 73746974 7574696F 6E732043 6572742E 20417574 686F7269 74793120 
+  301E0603 5504030C 17484152 49434120 53534C20 52534120 53756243 41205233 
+  30820222 300D0609 2A864886 F70D0101 01050003 82020F00 3082020A 02820201 
+  0088D961 7E653E7B CC178C01 58A96EED 31836BAD 7F34F442 1B1E5DD7 179D9898 
+  A4674E32 B8D67BCD 1DE4107D 714CCCD6 B21E99AE B18D0DB6 9877F62F 8FFC7302 
+  58677C4A 1CE7A7E8 06AB27A3 C5371E12 41B828B9 03B1450E CB2C21E1 5E10156E 
+  DA39BC30 7ACBFB04 3A3EAC91 B9C412BF 4AB4ED3B 55DB2140 F71289A9 53DB524F 
+  4AAA65EE BC426872 A334CDA7 4F4AD6F8 4175F197 6E749ACA E5573025 8F5430F7 
+  7E59A793 673DBB4D 4D5905CD A423E59A 851F58D1 4B561E5B CA8340F9 5BF27528 
+  48F658A8 092FE38A F42576FA 4ED6D152 3F6934A3 0A7B5CB7 E98B24A4 DC94469B 
+  874B059D BDD94F91 0E1CBE6C 06314C37 AB1D8CDC 6FD5D516 14F37EAD 85840649 
+  2E54904E 63F6BE85 F701CF7B E1538A22 4D883522 0C7490BB 3574BFAD 7CE57B85 
+  64BE0ED5 B0B2289B 7E195F4A C8950A9C B5C8EC06 DE325F3A CDC59DCD B4054AFF 
+  DF80242E 501063A3 7F99C929 15D2658A 98E2AF93 8AFD6447 6D18EE5B F9B9F834 
+  DE7D828A F22C5DDD E59240E0 FD742384 8965AAB3 03719050 45A54011 B9069D55 
+  86116687 E8E632E8 2FA0EADF 6E39EE41 047A4F33 C30C2154 548AE9DC 52F42988 
+  F798109D 34EE08A3 A7451B55 8D0C2C4F 55D2E49A 368D755B 79A7F4AC 4DA80FB0 
+  FFA75EDA 69A71F3F A1A31A52 C2756588 2F58D447 035C0E33 882E5D81 577F801C 
+  90129888 D773C224 1C7504BD E15291AF 68913454 717E57F6 914D0DBA FD3F5B1F 
+  29020301 0001A382 01533082 014F3012 0603551D 130101FF 04083006 0101FF02 
+  0100301F 0603551D 23041830 16801471 1567C8C8 C9BD755D 72D03818 6A9DF371 
+  24540B30 6F06082B 06010505 07010104 63306130 3C06082B 06010505 07300286 
+  30687474 703A2F2F 7265706F 2E686172 6963612E 67722F63 65727473 2F486172 
+  69636152 6F6F7443 41323031 352E6372 74302106 082B0601 05050730 01861568 
+  7474703A 2F2F6F63 73702E68 61726963 612E6772 30110603 551D2004 0A300830 
+  06060455 1D200030 1D060355 1D250416 30140608 2B060105 05070302 06082B06 
+  01050507 03013046 0603551D 1F043F30 3D303BA0 39A03786 35687474 703A2F2F 
+  63726C76 312E6861 72696361 2E67722F 48617269 6361526F 6F744341 32303135 
+  2F63726C 76312E64 65722E63 726C301D 0603551D 0E041604 143D6985 19517F95 
+  CF515E38 92C8C380 D21FE220 58300E06 03551D0F 0101FF04 04030201 86300D06 
+  092A8648 86F70D01 010B0500 03820201 00876691 A33772E7 13BAAF8B 04AB22EF 
+  DED3BAA2 972025E4 543BD3A9 3EEBE90B 5D7074FA 0506C41C AAD42D5F 73FD77A1 
+  13F6B099 C6DA9282 79A7BA4D DE24E808 DFFE21B4 5F5A32F6 26B96200 C399A044 
+  0E21070E F51435FF F756E2D0 7620AE57 D6D476DC A8E717B0 A07A8893 8404FC19 
+  F662F5C4 277C89DE 2F90D95B A274A6C4 883D2DF2 A9387311 636FA326 D016BEDA 
+  C07AEA14 F8E33D4A 3B53A6AA 19FCCACB EDD242B0 CED21438 21AD82AC 57F901C2 
+  4D5CB15E 15F65A64 5D2281C0 59B5F1C3 D8E9B636 8DF8B7C3 BFCA0B35 6CC31442 
+  FCC454FC 0581678D EBE56DE6 8F6967CA 67026788 750A1698 B4D64A54 C9D7ABC0 
+  C03195A6 BBF09D37 EFE4798E 27D2C29E EAB0BDC5 9863DBC1 7A87AE41 E5170531 
+  D72E5113 34D34728 C55FD96A E713E584 3FD774D2 B6FA0F7A BE10BA95 FD7A0AE5 
+  27FCEEF0 F9AE50F3 B592746B D26B1503 D078D788 89579856 09B32FA8 E0191330 
+  3566A836 648B399C 8D05442B B66840B7 D7CEAF85 2F53D506 8E5105E2 7D803189 
+  2239EAFA 17A9D4A5 8E99AB67 8DCE6DE6 AF6A20E3 BCF8E576 0263A4C4 9E3B4D1C 
+  89E2CEBD 4DB60102 32AAC439 D82ED667 2703C4D1 92647753 F0BF5D6C C1356255 
+  C409B6EB 8F0B7B00 C3094254 39781E2E 039B6B1C 1BBF7928 41FDA853 E6C6B3D3 
+  EDF6F8A0 FC1E51BA 559F1B1E A8C3F499 DCA5039D 9CDB09D2 F383FF37 7EB1DF94 
+  15D85A3D 3D9C0A7A 21D28671 A1BD1393 63
+  	quit
+!
+!
+no license feature hseck9
+license udi pid C1121-8P sn FGL2634L6TZ
+license boot level securityk9
+license smart url default
+license smart transport smart
+license smart proxy address iproxy.ddt.gov.net
+license smart proxy port 80
+archive
+ path bootflash:archive
+ maximum 1
+ write-memory
+memory free low-watermark processor 70888
+!
+diagnostic bootup level minimal
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 1-4094 priority 61440
+!
+username admin privilege 15 secret 9 $9$PJW70NHw.JoNYE$VFCE9MlUjpUWeob0Y.ejF0tX9KIDQtzPwOZsLik.xWs
+username sa-nautobot privilege 15 secret 9 $9$K5ou9SN5KGfEtU$.GPCFKf0/NgsEsd04dnfvcHrScTx3unxoPB/JoOwSZQ
+!
+redundancy
+ mode none
+!
+!
+!
+!
+!
+vlan internal allocation policy ascending
+!
+vlan 3000
+ name data-lan
+!
+vlan 3100
+ name voice-lan-dsl
+!
+!
+class-map match-any QOS-REALTIME-CLASS
+ match dscp ef 
+class-map match-any QOS-SERVICES-RESERVED-NOWRED-CLASS
+ match dscp af31  cs6 
+class-map match-any QOS-SERVICES-RESERVED-WRED-CLASS
+ match dscp af41 
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-DATA-TCP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-MGMT-v6
+ match access-group name ACL-INFRA_MGMT-v6
+class-map type inspect match-all CMAP-INSP-DATA-OUTSIDE-v6
+ match access-group name ACL-DATA-OUTSIDE-v6
+class-map match-any QOS-BUSINESS-CRITICAL-DATA-CLASS
+ match access-group name QOS-BUSINESS-CRITICAL-DATA
+ match access-group name QOS-JABBER-CONFIGURATION
+ match access-group name QOS-JABBER-DIRECTORY-INTEGRATION
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-DATA-UDP
+class-map match-any QOS-BEST-EFFORT-CLASS
+ match access-group name QOS-BEST-EFFORT
+ match dscp default 
+class-map type inspect match-all CMAP-INSP-VOICE-OUTSIDE-v6-TCP
+ match protocol tcp
+ match access-group name ACL-VOICE-OUTSIDE-v6-TCP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-VOICE-v6-TCP
+class-map type inspect match-all CMAP-INSP-VOICE-OUTSIDE-v6-UDP
+ match protocol udp
+ match access-group name ACL-VOICE-OUTSIDE-v6-UDP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-VOICE-v6-UDP
+class-map type inspect match-any CMAP-INSP-VOICE-PROTOCOL-IN-OUT
+ match protocol dns
+ match protocol tftp
+ match protocol ntp
+ match protocol sip
+ match protocol sip-tls
+ match protocol https
+ match protocol icmp
+class-map type inspect match-any CMAP-INSP-VOICE-PROTOCOL-OUT-IN
+ match protocol sip
+ match protocol sip-tls
+ match protocol icmp
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6
+ match access-group name ACL-OUTSIDE-VOICE-v6
+class-map type inspect match-any CMAP-INSP-MGMT-OUTSIDE
+ match protocol dns
+ match protocol ntp
+ match protocol bgp
+ match protocol syslog
+ match protocol snmp
+ match protocol ftp
+ match protocol tftp
+2023-09-10 15:20:48,097 [DEBUG] - read_channel: 
+ match protocol https
+class-map type inspect match-all CMAP-INSP-OUTSIDE-MGMT
+ match access-group name ACL-OUTSIDE-MGMT
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-v6-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-DATA-v6-UDP
+class-map type inspect match-all CMAP-INSP-DATA-OUTSIDE
+ match access-group name ACL-DATA-OUTSIDE
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-v6-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-DATA-v6-TCP
+class-map match-any QOS-REALTIME-MARKING-CLASS
+ match access-group name QOS-VOICE-MEDIA-EXCHANGE
+class-map match-any QOS-VIDEO-MEDIA-EXCHANGE-MARKING-CLASS
+ match access-group name QOS-VIDEO-MEDIA-EXCHANGE
+class-map match-any QOS-TRANSACTIONAL-DATA-CLASS
+ match dscp af21  af22  af23 
+class-map match-any QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING-CLASS
+ match access-group name QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING
+!
+policy-map QOS-INPUT-CLASSIFY-MARKING
+ class QOS-REALTIME-MARKING-CLASS
+  set dscp ef
+ class QOS-VIDEO-MEDIA-EXCHANGE-MARKING-CLASS
+  set dscp af41
+ class QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING-CLASS
+  set dscp af31
+ class QOS-BUSINESS-CRITICAL-DATA-CLASS
+  set dscp af21
+ class QOS-BEST-EFFORT-CLASS
+  set dscp default
+policy-map type inspect PMAP-DATA-OUTSIDE
+ class type inspect CMAP-INSP-DATA-OUTSIDE
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-DATA-OUTSIDE-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map QOS-CHILD-QOS-MAP
+ class QOS-REALTIME-CLASS
+  priority percent 22
+ class QOS-SERVICES-RESERVED-NOWRED-CLASS
+  bandwidth remaining percent 23 
+ class QOS-SERVICES-RESERVED-WRED-CLASS
+  bandwidth remaining percent 12 
+  random-detect dscp-based
+ class QOS-TRANSACTIONAL-DATA-CLASS
+  bandwidth remaining percent 20 
+  random-detect dscp-based
+ class QOS-BEST-EFFORT-CLASS
+  bandwidth remaining percent 23 
+  random-detect dscp-based
+policy-map QOS-PARENT-QOS-MAP-XDSL
+ class class-default
+  shape average percent 80   
+   service-policy QOS-CHILD-QOS-MAP
+policy-map type inspect PMAP-OUTSIDE-VOICE
+ class type inspect CMAP-INSP-VOICE-PROTOCOL-OUT-IN
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6-UDP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-OUTSIDE-MGMT
+ class type inspect CMAP-INSP-OUTSIDE-MGMT
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-MGMT-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-MGMT-OUTSIDE
+ class type inspect CMAP-INSP-MGMT-OUTSIDE
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-OUTSIDE-DATA
+ class type inspect CMAP-INSP-OUTSIDE-DATA-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-UDP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-v6-UDP
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-VOICE-OUTSIDE
+ class type inspect CMAP-INSP-VOICE-PROTOCOL-IN-OUT
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-VOICE-OUTSIDE-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-VOICE-OUTSIDE-v6-UDP
+  inspect AUDIT-TRAIL
+ class class-default
+!
+zone security DATA
+zone security VOICE
+zone security MGMT
+zone security OUTSIDE
+zone-pair security DATA-OUTSIDE source DATA destination OUTSIDE
+ service-policy type inspect PMAP-DATA-OUTSIDE
+zone-pair security MGMT-OUTSIDE source MGMT destination OUTSIDE
+ service-policy type inspect PMAP-MGMT-OUTSIDE
+zone-pair security OUTSIDE-DATA source OUTSIDE destination DATA
+ service-policy type inspect PMAP-OUTSIDE-DATA
+zone-pair security OUTSIDE-MGMT source OUTSIDE destination MGMT
+ service-policy type inspect PMAP-OUTSIDE-MGMT
+zone-pair security OUTSIDE-VOICE source OUTSIDE destination VOICE
+ service-policy type inspect PMAP-OUTSIDE-VOICE
+zone-pair security VOICE-OUTSIDE source VOICE destination OUTSIDE
+ service-policy type inspect PMAP-VOICE-OUTSIDE
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+! 
+!
+!
+interface Loopback0
+ description MANAGEMENT-LOOPBACK
+ ip address 172.23.35.71 255.255.255.255
+ ipv6 address 2A10:D001:810:1791::1/128
+!
+interface GigabitEthernet0/0/0
+ description [MO:WAN-PRI1]
+ no ip address
+ negotiation auto
+ pppoe enable group global
+ pppoe-client dial-pool-number 1
+!
+interface GigabitEthernet0/0/1
+ ip dhcp client client-id ascii cisco-34b8.83d0.4d81-Gi0/0/1
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet0/1/0
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/1
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/2
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/3
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/4
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/5
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/6
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/7
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan3000
+ description [LAN-DATA-3000]
+ ip address 10.46.216.65 255.255.255.224
+ ip verify unicast source reachable-via rx
+ zone-member security DATA
+ ip tcp adjust-mss 1340
+ ipv6 address 2A10:D001:1811:C500::1/64
+ ipv6 enable
+ ipv6 nd other-config-flag
+ ipv6 tcp adjust-mss 1340
+ ipv6 dhcp server DHCP-DATA-IPv6-pool-3000
+ ipv6 verify unicast source reachable-via rx
+!
+interface Vlan3100
+ description [LAN-VOICE-3100]
+ no ip address
+ ip verify unicast source reachable-via rx
+ zone-member security VOICE
+ ip tcp adjust-mss 1380
+ ipv6 address 2A10:D001:2817:5A00::1/64
+ ipv6 enable
+ ipv6 nd prefix 2A10:D001:2817:5A00::/64 14400 14400 no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 nd other-config-flag
+ ipv6 tcp adjust-mss 1360
+ ipv6 dhcp server DHCP-VOICE-IPv6-pool-3100
+ ipv6 verify unicast source reachable-via rx
+!
+interface Dialer1
+ description [IP:WAN-PRI1]
+ mtu 1492
+ bandwidth 5000
+ ip flow monitor flow-monitor-elk input
+ ip flow monitor flow-monitor-elk output
+ ip address negotiated
+ zone-member security OUTSIDE
+ encapsulation ppp
+ dialer pool 1
+ dialer-group 1
+ ipv6 flow monitor flow-monitor-elk-v6 input
+ ipv6 flow monitor flow-monitor-elk-v6 output
+ ipv6 address FE80::1 link-local
+ ipv6 address autoconfig
+ ipv6 enable
+ ipv6 dhcp client request vendor
+ ppp authentication pap callin
+ ppp pap sent-username VPN_SYZEYXIS_II_GR_OTE_ON_21P2056664@syzefxis2.otevpn.gr password 7 122a1c0d410d14553979
+ service-policy output QOS-PARENT-QOS-MAP-XDSL
+!
+router bgp 65222
+ bgp log-neighbor-changes
+ no bgp default ipv4-unicast
+ neighbor 83.235.1.100 remote-as 6799
+ neighbor 83.235.1.100 description [WAN-PRI1-IPV4-PEER]
+ neighbor 83.235.1.100 update-source D
+2023-09-10 15:20:48,128 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,159 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,190 [DEBUG] - read_channel: ialer1
+ !
+ address-family ipv4
+  redistribute connected
+  neighbor 83.235.1.100 activate
+  neighbor 83.235.1.100 send-community both
+  neighbor 83.235.1.100 soft-reconfiguration inbound
+  neighbor 83.235.1.100 route-map rm-primary-in-v4 in
+  neighbor 83.235.1.100 route-map rm-primary-out-v4 out
+ exit-address-family
+ !
+ address-family ipv6
+  redistribute connected
+  neighbor 83.235.1.100 activate
+  neighbor 83.235.1.100 send-community both
+  neighbor 83.235.1.100 soft-reconfiguration inbound
+  neighbor 83.235.1.100 route-map rm-primary-in-v6 in
+  neighbor 83.235.1.100 route-map rm-primary-out-v6 out
+ exit-address-family
+!
+no ip http server
+ip http access-class ipv4 ACL-INFRA_MGMT
+ip http access-class ipv6 ACL-INFRA_MGMT-v6
+ip http authentication local
+ip http secure-server
+ip http secure-ciphersuite rsa-aes-gcm-sha2 dhe-aes-gcm-sha2 ecdhe-rsa-aes-gcm-sha2 ecdhe-ecdsa-aes-gcm-sha2 
+ip http tls-version TLSv1.2 
+ip http client source-interface Loopback0
+ip http client secure-trustpoint SLA-TrustPoint
+ip forward-protocol nd
+ip ftp source-interface Loopback0
+ip tftp source-interface Loopback0
+ip tftp blocksize 8192
+ip route 0.0.0.0 0.0.0.0 Dialer1 250
+ip ssh version 2
+ip ssh dh min size 4096
+ip scp server enable
+!
+ip bgp-community new-format
+!
+ip access-list standard ACL-INFRA_MGMT
+ 10 remark OOB SSL VPN Prefixes
+ 10 permit 172.16.100.0 0.0.0.255
+ 20 permit 172.16.101.0 0.0.0.255
+ 30 remark Central System Prefixes
+ 30 permit 172.29.128.0 0.0.15.255
+ 40 remark ISP/SLA Prefixes
+ 40 permit 192.168.0.0 0.0.255.255
+ 50 remark Public Prefixes - Y3
+ 50 permit 84.205.214.0 0.0.0.255
+ 60 permit 84.205.215.0 0.0.0.255
+ 70 permit 84.205.216.0 0.0.0.255
+ 80 remark Public Prefixes - Y3
+ 80 permit 84.205.217.0 0.0.0.255
+ 90 remark Public Prefixes - Y3
+ 90 permit 84.205.218.0 0.0.0.255
+ 100 remark Nautobot
+ 100 permit 172.29.160.0 0.0.0.255
+ 110 remark RAVPN Athens Admins
+ 110 permit 172.29.0.0 0.0.0.255
+ 120 remark RAVPN Chania Admins
+ 120 permit 172.29.64.0 0.0.0.255
+ 130 remark HELPDESK Singular
+ 130 permit 172.29.147.0 0.0.0.255
+!
+ip access-list extended ACL-DATA-OUTSIDE
+ 10 remark Permit-Data-Traffic
+ 10 permit ip 10.0.0.0 0.255.255.255 any
+ip access-list extended ACL-OUTSIDE-DATA-TCP
+ 10 remark Permit-Jabber-Traffic
+ 10 permit tcp any 10.0.0.0 0.255.255.255 eq 2748
+ 20 permit tcp any 10.0.0.0 0.255.255.255 eq 389
+ 30 permit tcp any 10.0.0.0 0.255.255.255 range 3268 3269
+ 40 permit tcp any 10.0.0.0 0.255.255.255 eq 636
+ 50 permit tcp any 10.0.0.0 0.255.255.255 eq 5060
+ 60 permit tcp any 10.0.0.0 0.255.255.255 eq 3804
+ 70 permit tcp any 10.0.0.0 0.255.255.255 range 6970 6972
+ 80 permit tcp any 10.0.0.0 0.255.255.255 eq 8191
+ip access-list extended ACL-OUTSIDE-DATA-UDP
+ 10 remark Permit-Jabber-Traffic
+ 10 permit udp any 10.0.0.0 0.255.255.255 range 30000 39999
+ 20 permit udp any 10.0.0.0 0.255.255.255 range 5070 6070
+ip access-list extended ACL-OUTSIDE-MGMT
+ 10 remark RAVPN Athens Prefixes
+ 10 permit ip 172.29.0.0 0.0.0.255 any
+ 20 remark RAVPN Chania Prefixes
+ 20 permit ip 172.29.64.0 0.0.0.255 any
+ 30 remark permit Helpdesk to to SW,IPS,PBX
+ 30 permit ip 172.29.147.0 0.0.0.255 any
+ 40 remark Central System Prefixes
+ 40 permit ip 172.29.128.0 0.0.15.255 any
+ 50 remark Permit Nautobot access to CPE
+ 50 permit ip 172.29.160.0 0.0.0.255 any
+ 60 remark ISP/SLA Prefixes
+ 60 permit ip 192.168.0.0 0.0.255.255 any
+ 70 remark Public Prefixes - Y3
+ 70 permit ip 84.205.214.0 0.0.1.255 any
+ 80 permit ip 84.205.216.0 0.0.1.255 any
+ 90 remark Temp-Sizefxis-1 Subnet
+ 90 permit ip 10.33.167.236 0.0.0.3 any
+ 100 remark FTP server
+ 100 permit ip host 84.205.218.160 any
+ip access-list extended QOS-BEST-EFFORT
+ 10 permit udp any any eq syslog
+ remark TO-BE-DEFINED
+ip access-list extended QOS-BUSINESS-CRITICAL-DATA
+ 10 permit udp any any eq syslog
+ remark TO-BE-DEFINED
+ip access-list extended QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING
+ 10 permit tcp any any eq 2748
+ 20 permit tcp any any eq 5060
+ 30 permit tcp any any eq 5061
+ 40 permit udp any any range 30000 39999
+ 50 permit udp any any range 5070 6070
+ip access-list extended QOS-JABBER-CONFIGURATION
+ 10 permit tcp any any eq 6970
+ 20 permit tcp any any eq 6972
+ 30 permit tcp any any eq 3804
+ 40 permit tcp any any eq 8191
+ip access-list extended QOS-JABBER-DIRECTORY-INTEGRATION
+ 10 permit tcp any any eq 389
+ 20 permit tcp any any eq 3268
+ 30 permit tcp any any eq 636
+ 40 permit tcp any any eq 3269
+ip access-list extended QOS-VIDEO-MEDIA-EXCHANGE
+ 10 permit udp any any range 24575 32766
+ip access-list extended QOS-VOICE-MEDIA-EXCHANGE
+ 10 permit udp any any range 16384 24574
+!
+logging history size 20
+logging history informational
+logging origin-id hostname
+logging facility local6
+logging source-interface Loopback0
+logging host 172.29.139.20
+logging host 172.29.158.20
+dialer-list 1 protocol ip permit
+!
+route-map rm-primary-in-v6 permit 100 
+!
+route-map rm-primary-in-v4 permit 100 
+!
+route-map rm-primary-out-v6 permit 100 
+ set ipv6 next-hop 2A10:D000:165:6500::1
+!
+route-map rm-primary-out-v4 permit 100 
+!
+snmp-server community KMyE5Nsn3n7R0:HIfz-d RO
+snmp-server trap-source Loopback0
+snmp-server location S-HAL-17808-7-ASM-ASM-OTE-ICTU
+snmp-server enable traps snmp linkdown linkup coldstart warmstart
+snmp-server enable traps config
+snmp-server enable traps cpu threshold
+snmp-server enable traps bgp state-changes updown-limited
+snmp-server host 172.29.139.20 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp-server host 172.29.158.20 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp-server host 84.205.218.37 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp ifmib ifindex persist
+!
+!
+!
+!
+ipv6 access-list ACL-DATA-OUTSIDE-v6
+ sequence 10 remark Permit-Data-Traffic
+ sequence 20 permit ipv6 2A10:D001:1800::/38 any
+ sequence 30 remark Permit-Data-Traffic-ICMP
+ sequence 40 permit icmp any any
+!
+ipv6 access-list ACL-INFRA_MGMT-v6
+ sequence 10 remark Prefixes for Central systems and ISP/SLA
+ sequence 20 permit ipv6 2A10:D000:10::/44 any
+!
+ipv6 access-list ACL-OUTSIDE-DATA-v6-TCP
+ sequence 10 remark Permit-Jabber-Traffic
+ sequence 20 permit tcp any 2A10:D001:1800::/38 eq 2748
+ sequence 30 permit tcp any 2A10:D001:1800::/38 eq 389
+ sequence 40 permit tcp any 2A10:D001:1800::/38 range 3268 3269
+ sequence 50 permit tcp any 2A10:D001:1800::/38 eq 636
+ sequence 60 permit tcp any 2A10:D001:1800::/38 eq 5060
+ sequence 70 permit tcp any 2A10:D001:1800::/38 eq 2445
+ sequence 80 permit tcp any 2A10:D001:1800::/38 eq 3804
+ sequence 90 permit tcp any 2A10:D001:1800::/38 range 6970 6972
+ sequence 100 permit tcp any 2A10:D001:1800::/38 eq 8191
+!
+ipv6 access-list ACL-OUTSIDE-DATA-v6-UDP
+ sequence 10 remark Permit-Jabber-Traffic
+ sequence 20 permit udp any 2A10:D001:1800::/38 range 30000 39999
+ sequence 30 permit udp any 2A10:D001:1800::/38 range 5070 6070
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6
+ sequence 10 remark Permit-Voice-Traffic-From-CUCM-SBC
+ sequence 20 permit ipv6 2A10:D000:10:B::/64 2A10:D001:2800::/38
+ sequence 30 permit ipv6 2A10:D000:10:C::/64 2A10:D001:2800::/38
+ sequence 40 permit ipv6 2A10:D000:18:5::/64 2A10:D001:2800::/38
+ sequence 50 permit ipv6 2A10:D000:18:6::/64 2A10:D001:2800::/38
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6-TCP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit tcp any 2A10:D001:2800::/38 eq 5060
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6-UDP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit udp any 2A10:D001:2800::/38 range 8000 48200
+!
+ipv6 access-list ACL-VOICE-OUTSIDE-v6-TCP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit tcp 2A10:D001:2800::/38 any eq 5060
+ sequence 30 permit tcp 2A10:D001:2800::/38 any eq 2445
+ sequence 40 permit tcp 2A10:D001:2800::/38 any eq 3804
+ sequence 50 permit tcp 2A10:D001:2800::/38 any range 6970 6972
+ sequence 60 permit tcp 2A10:D001:2800::/38 any eq 8080
+ sequence 70 permit tcp 2A10:D001:2800::/38 any eq 8443
+ sequence 80 permit tcp 2A10:D001:2800::/38 any range 9443 9444
+!
+ipv6 access-list ACL-VOICE-OUTSIDE-v6-UDP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit udp 2A10:D001:2800::/38 any range 8000 48200
+!
+control-plane
+!
+!
+line con 0
+ password 7 081255745B395645432B
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ access-class ACL-INFRA_MGMT in vrf-also
+ exec-timeout 30 0
+ privilege level 15
+ ipv6 access-class ACL-INFRA_MGMT-v6 in
+ logging synchronous
+ transport input ssh
+line vty 5 15
+ access-class ACL-INFRA_MGMT in vrf-also
+ exec-timeout 30 0
+ ipv6 access-class ACL-INFRA_MGMT-v6 in
+ logging synchronous
+ transport input ssh
+!
+call-home
+ ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com
+ ! the email address configured in Cisco Smart License Portal will be used as contact email address to send SCH notifications.
+ contact-email-addr sch-smart-licensing@cisco.com
+ profile "CiscoTAC-1"
+  active
+  destination transport-method http
+ntp source Loopback0
+ntp server 84.205.218.190 prefer
+ntp server 84.205.219.190
+ntp server 2A10:D000:14:600::3E prefer
+ntp server 2A10:D000:1C:600::3E
+!
+!
+!
+!
+!
+!
+restconf
+end
+
+S-HAL-17808-R1#
+2023-09-10 15:20:48,206 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,206 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,237 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,238 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,268 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,269 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,331 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:48,347 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,347 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:48,348 [DEBUG] - write_channel: b'show version\n'
+2023-09-10 15:20:48,348 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,361 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,377 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,392 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:48,408 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,424 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,440 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,455 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,471 [DEBUG] - read_channel: sh
+2023-09-10 15:20:48,486 [DEBUG] - read_channel: ow vers
+2023-09-10 15:20:48,502 [DEBUG] - read_channel: ion
+
+2023-09-10 15:20:48,503 [DEBUG] - Pattern found: (show\ version) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show version
+2023-09-10 15:20:48,533 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,565 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,596 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,626 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,658 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,689 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,720 [DEBUG] - read_channel: Cisco IOS XE Software, Version 17.06.05
+Cisco IOS Software [Bengaluru], ISR Software (ARMV8EL_LINUX_IOSD-UNIVERSALK9-M), Version 17.6.5, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2023 by Cisco Systems, Inc.
+Compiled Wed 25-Jan-23 15:15 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2023 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: (c)
+
+S-HAL-17808-R1 uptime is 6 weeks, 5 days, 4 hours, 39 minutes
+Uptime for this control processor is 6 weeks, 5 days, 4 hours, 40 minutes
+System returned to ROM by PowerOn at 10:06:09 EEST Wed Apr 19 2023
+System restarted at 10:41:14 EEST Tue Jul 25 2023
+System image file is "bootflash:c1100-universalk9.17.06.05.SPA.bin"
+Last reload reason: PowerOn
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+
+Suite License Information for Module:'esg' 
+
+--------------------------------------------------------------------------------
+Suite                 Suite Current         Type           Suite Next reboot     
+--------------------------------------------------------------------------------
+FoundationSuiteK9     None                  Smart License  None                  
+securityk9
+appxk9
+
+
+Technology Package License Information: 
+
+-----------------------------------------------------------------
+Technology    Technology-package           Technology-package
+              Current       Type           Next reboot  
+------------------------------------------------------------------
+appxk9           None             Smart License    None
+uck9             None             Smart License    None
+securityk9       securityk9       Smart License    securityk9
+ipbase           ipbasek9         Smart License    ipbasek9
+
+The current throughput level is unthrottled 
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C1121-8P (1RU) processor with 1397861K/6147K bytes of memory.
+Processor board ID FGL2634L6TZ
+Router operating mode: Autonomous
+3 Virtual Ethernet interfaces
+10 Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+4194304K bytes of physical memory.
+2945023K bytes of flash memory at bootflash:.
+
+Configuration register is 0x2102
+
+S-HAL-17808-R1#
+2023-09-10 15:20:48,736 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,737 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,766 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,767 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,799 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,800 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:48,860 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:48,876 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,876 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:48,876 [DEBUG] - write_channel: b'show license status\n'
+2023-09-10 15:20:48,876 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,892 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,907 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,923 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:48,938 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,954 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,970 [DEBUG] - read_channel: 
+2023-09-10 15:20:48,985 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,001 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,015 [DEBUG] - read_channel: show lic
+2023-09-10 15:20:49,031 [DEBUG] - read_channel: ense sta
+2023-09-10 15:20:49,046 [DEBUG] - read_channel: tus
+
+2023-09-10 15:20:49,047 [DEBUG] - Pattern found: (show\ license\ status) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show license status
+2023-09-10 15:20:49,077 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,108 [DEBUG] - read_channel: Utility:
+  Status: DISABLED
+
+Smart Licensing Using Policy:
+  Status: ENABLED
+
+Data Privacy:
+  Sending Hostname: yes
+    Callhome hostname privacy: DISABLED
+    Smart Licensing hostname privacy: DISABLED
+  Version privacy: DISABLED
+
+Transport:
+  Type: Smart
+  URL: https://smartreceiver.cisco.com/licservice/license
+  Proxy:
+    Address: iproxy.ddt.gov.net
+    Port: 80
+    Username: <empty>
+    Password: <empty>
+
+Policy:
+  Policy in use: Merged from multiple sources.
+  Reporting ACK required: yes (CISCO default)
+  Unenforced/Non-Export Perpetual Attributes:
+    First report requirement (days): 365 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 90 (CISCO default)
+  Unenforced/Non-Export Subscription Attributes:
+    First report requirement (days): 90 (CISCO default)
+    Reporting frequency (days): 90 (CISCO default)
+    Report on change (days): 90 (CISCO default)
+  Enforced (Perpetual/Subscription) License Attributes:
+    First report requirement (days): 0 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 0 (CISCO default)
+  Export (Perpetual/Subscription) License Attributes:
+    First report requirement (days): 0 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 0 (CISCO default)
+
+Miscellaneous:
+  Custom Id: <empty>
+
+Usage Reporting:
+  Last ACK received: Aug 24 10:47:58 2023 EEST
+  Next ACK deadline: <none>
+  Reporting push interval: 0 (no reporting)
+  Next ACK push check: <none>
+  Next report push: <none>
+  Last report push: Aug 24 10:42:58 2023 EEST
+  Last report file write: <none>
+
+Trust Code Installed: Apr 19 10:12:26 2023 EEST
+
+
+S-HAL-17808-R1#
+2023-09-10 15:20:49,123 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,124 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,155 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,155 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,186 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,186 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,248 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:49,264 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,265 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:49,265 [DEBUG] - write_channel: b'show ipv6 interface vlan3000\n'
+2023-09-10 15:20:49,265 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,280 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,295 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,311 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:49,326 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,341 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,357 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,373 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,388 [DEBUG] - read_channel: sh
+2023-09-10 15:20:49,404 [DEBUG] - read_channel: ow ipv6 
+2023-09-10 15:20:49,420 [DEBUG] - read_channel: interfa
+2023-09-10 15:20:49,435 [DEBUG] - read_channel: ce 
+2023-09-10 15:20:49,451 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,467 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,483 [DEBUG] - read_channel: vlan30
+2023-09-10 15:20:49,499 [DEBUG] - read_channel: 00
+Vlan3000 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-DATA-3000]
+  Global unicast address(es):
+    2A10:D001:1811:C500::1, subnet is 2A10:D001:1811:C500::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use stateless autoconfig for addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:20:49,499 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3000) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3000
+2023-09-10 15:20:49,531 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,546 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,546 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,577 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,577 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,608 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,608 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,670 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:49,686 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,686 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:49,686 [DEBUG] - write_channel: b'show ipv6 interface vlan3100\n'
+2023-09-10 15:20:49,686 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,701 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,717 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,733 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:49,748 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,764 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,779 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,795 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,810 [DEBUG] - read_channel: s
+2023-09-10 15:20:49,825 [DEBUG] - read_channel: how ipv6
+2023-09-10 15:20:49,841 [DEBUG] - read_channel:  interface
+2023-09-10 15:20:49,857 [DEBUG] - read_channel:  
+2023-09-10 15:20:49,873 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,888 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,904 [DEBUG] - read_channel: vlan3
+2023-09-10 15:20:49,919 [DEBUG] - read_channel: 100
+Vlan3100 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-VOICE-3100]
+  Global unicast address(es):
+    2A10:D001:2817:5A00::1, subnet is 2A10:D001:2817:5A00::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use DHCP to obtain routable addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:20:49,919 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3100) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3100
+2023-09-10 15:20:49,950 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,966 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,967 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:49,996 [DEBUG] - read_channel: 
+2023-09-10 15:20:49,996 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,028 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,028 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,091 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:50,106 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,107 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:50,107 [DEBUG] - write_channel: b'show ipv6 interface vlan3000\n'
+2023-09-10 15:20:50,107 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,123 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,137 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,153 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:50,169 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,184 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,201 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,216 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,230 [DEBUG] - read_channel: show
+2023-09-10 15:20:50,246 [DEBUG] - read_channel:  ipv6 i
+2023-09-10 15:20:50,262 [DEBUG] - read_channel: nterface 
+2023-09-10 15:20:50,277 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,293 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,308 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,324 [DEBUG] - read_channel: vlan3
+2023-09-10 15:20:50,339 [DEBUG] - read_channel: 000
+Vlan3000 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-DATA-3000]
+  Global unicast address(es):
+    2A10:D001:1811:C500::1, subnet is 2A10:D001:1811:C500::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use stateless autoconfig for addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:20:50,339 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3000) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3000
+2023-09-10 15:20:50,370 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,386 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,386 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,417 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,418 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,448 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,449 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,509 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:50,525 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,525 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:50,525 [DEBUG] - write_channel: b'show ipv6 interface vlan3100\n'
+2023-09-10 15:20:50,525 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,540 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,556 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,571 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,586 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:50,602 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,618 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,633 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,648 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,664 [DEBUG] - read_channel: show
+2023-09-10 15:20:50,679 [DEBUG] - read_channel:  ipv6 in
+2023-09-10 15:20:50,694 [DEBUG] - read_channel: terface 
+2023-09-10 15:20:50,710 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,725 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,741 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,757 [DEBUG] - read_channel: vlan310
+2023-09-10 15:20:50,772 [DEBUG] - read_channel: 0
+Vlan3100 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-VOICE-3100]
+  Global unicast address(es):
+    2A10:D001:2817:5A00::1, subnet is 2A10:D001:2817:5A00::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use DHCP to obtain routable addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:20:50,772 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3100) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3100
+2023-09-10 15:20:50,803 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,819 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,819 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,850 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,851 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,881 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,882 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:20:50,942 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:20:50,958 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,958 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:20:50,958 [DEBUG] - write_channel: b'ping 84.205.218.190 source Lo0\n'
+2023-09-10 15:20:50,958 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,974 [DEBUG] - read_channel: 
+2023-09-10 15:20:50,989 [DEBUG] - read_channel: 
+2023-09-10 15:20:51,005 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:20:51,021 [DEBUG] - read_channel: 
+2023-09-10 15:20:51,037 [DEBUG] - read_channel: 
+2023-09-10 15:20:51,052 [DEBUG] - read_channel: 
+2023-09-10 15:20:51,068 [DEBUG] - read_channel: 
+2023-09-10 15:20:51,083 [DEBUG] - read_channel: p
+2023-09-10 15:20:51,099 [DEBUG] - read_channel: ing 84.2
+2023-09-10 15:20:51,114 [DEBUG] - read_channel: 05.218.
+2023-09-10 15:20:51,129 [DEBUG] - read_channel: 190 
+2023-09-10 15:27:34,048 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-10 15:27:34,048 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:27:34,065 [INFO] -  * Restarting with stat
+2023-09-10 15:27:35,177 [WARNING] -  * Debugger is active!
+2023-09-10 15:27:35,188 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:27:37,776 [WARNING] -  * Debugger is active!
+2023-09-10 15:27:37,776 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:31:52,012 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-10 15:31:52,012 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:31:52,029 [INFO] -  * Restarting with stat
+2023-09-10 15:31:53,262 [WARNING] -  * Debugger is active!
+2023-09-10 15:31:53,269 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:31:57,133 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:31:57,201 [INFO] -  * Restarting with stat
+2023-09-10 15:31:58,389 [WARNING] -  * Debugger is active!
+2023-09-10 15:31:58,398 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:32:00,577 [DEBUG] - starting thread (client mode): 0x41962f80
+2023-09-10 15:32:00,578 [DEBUG] - Local version/idstring: SSH-2.0-paramiko_2.12.0
+2023-09-10 15:32:00,652 [DEBUG] - Remote version/idstring: SSH-2.0-Cisco-1.25
+2023-09-10 15:32:00,652 [INFO] - Connected (version 2.0, client Cisco-1.25)
+2023-09-10 15:32:00,664 [DEBUG] - === Key exchange possibilities ===
+2023-09-10 15:32:00,664 [DEBUG] - kex algos: ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group14-sha1
+2023-09-10 15:32:00,664 [DEBUG] - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+2023-09-10 15:32:00,664 [DEBUG] - client encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+2023-09-10 15:32:00,664 [DEBUG] - server encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+2023-09-10 15:32:00,664 [DEBUG] - client mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-10 15:32:00,664 [DEBUG] - server mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-10 15:32:00,664 [DEBUG] - client compress: none
+2023-09-10 15:32:00,664 [DEBUG] - server compress: none
+2023-09-10 15:32:00,664 [DEBUG] - client lang: <none>
+2023-09-10 15:32:00,664 [DEBUG] - server lang: <none>
+2023-09-10 15:32:00,664 [DEBUG] - kex follows: False
+2023-09-10 15:32:00,664 [DEBUG] - === Key exchange agreements ===
+2023-09-10 15:32:00,664 [DEBUG] - Kex: ecdh-sha2-nistp256
+2023-09-10 15:32:00,664 [DEBUG] - HostKey: rsa-sha2-512
+2023-09-10 15:32:00,664 [DEBUG] - Cipher: aes128-ctr
+2023-09-10 15:32:00,664 [DEBUG] - MAC: hmac-sha2-256
+2023-09-10 15:32:00,664 [DEBUG] - Compression: none
+2023-09-10 15:32:00,664 [DEBUG] - === End of kex handshake ===
+2023-09-10 15:32:00,872 [DEBUG] - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2023-09-10 15:32:00,872 [DEBUG] - Switch to new keys ...
+2023-09-10 15:32:00,873 [DEBUG] - Adding ssh-rsa host key for 172.23.35.71: b'849d51b63284107b8d528c1b0304d6a5'
+2023-09-10 15:32:01,244 [DEBUG] - userauth is OK
+2023-09-10 15:32:01,397 [INFO] - Authentication (password) successful!
+2023-09-10 15:32:01,398 [DEBUG] - [chan 0] Max packet in: 32768 bytes
+2023-09-10 15:32:01,485 [DEBUG] - [chan 0] Max packet out: 4096 bytes
+2023-09-10 15:32:01,485 [DEBUG] - Secsh channel 0 opened.
+2023-09-10 15:32:01,570 [DEBUG] - [chan 0] Sesch channel 0 request ok
+2023-09-10 15:32:01,656 [DEBUG] - [chan 0] Sesch channel 0 request ok
+2023-09-10 15:32:01,656 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:01,772 [DEBUG] - write_channel: b'terminal width 511\n'
+2023-09-10 15:32:01,772 [DEBUG] - read_channel: 
+
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:01,787 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,803 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,818 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,834 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,850 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,865 [DEBUG] - read_channel: termi
+2023-09-10 15:32:01,881 [DEBUG] - read_channel: nal width
+2023-09-10 15:32:01,896 [DEBUG] - read_channel:  511
+S-HAL-17808-R1#
+2023-09-10 15:32:01,896 [DEBUG] - Pattern found: (terminal width 511) 
+
+S-HAL-17808-R1#
+S-HAL-17808-R1#terminal width 511
+2023-09-10 15:32:01,897 [DEBUG] - In disable_paging
+2023-09-10 15:32:01,897 [DEBUG] - Command: terminal length 0
+
+2023-09-10 15:32:01,897 [DEBUG] - write_channel: b'terminal length 0\n'
+2023-09-10 15:32:01,897 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,912 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,928 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,944 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,959 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,975 [DEBUG] - read_channel: 
+2023-09-10 15:32:01,991 [DEBUG] - read_channel: term
+2023-09-10 15:32:02,006 [DEBUG] - read_channel: inal le
+2023-09-10 15:32:02,022 [DEBUG] - read_channel: ngth 0
+S-HAL-17808-R1#
+2023-09-10 15:32:02,022 [DEBUG] - Pattern found: (terminal\ length\ 0) 
+S-HAL-17808-R1#terminal length 0
+2023-09-10 15:32:02,022 [DEBUG] - 
+S-HAL-17808-R1#terminal length 0
+2023-09-10 15:32:02,022 [DEBUG] - Exiting disable_paging
+2023-09-10 15:32:02,038 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,038 [DEBUG] - Clear buffer detects data in the channel
+2023-09-10 15:32:02,069 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,071 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:02,071 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,085 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,100 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,116 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,132 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,148 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,164 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:02,164 [DEBUG] - Pattern found: (\#|>) 
+S-HAL-17808-R1#
+2023-09-10 15:32:02,179 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,179 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:02,195 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,195 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:02,226 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,226 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:02,257 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,258 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:02,320 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:02,337 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,337 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:02,351 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,352 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:02,382 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:02,397 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,398 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:02,398 [DEBUG] - write_channel: b'show run\n'
+2023-09-10 15:32:02,398 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,412 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,427 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,442 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,458 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:02,473 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,489 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,505 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,520 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,535 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,551 [DEBUG] - read_channel: show r
+2023-09-10 15:32:02,567 [DEBUG] - read_channel: un
+Building configuration...
+
+2023-09-10 15:32:02,567 [DEBUG] - Pattern found: (show\ run) 
+S-HAL-17808-R1#show run
+2023-09-10 15:32:02,598 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,628 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,659 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,690 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,721 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,753 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,783 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,815 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,846 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,876 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,907 [DEBUG] - read_channel: 
+Current configuration : 32823 bytes
+!
+! Last configuration change at 10:41:52 EEST Tue Jul 25 2023
+!
+version 17.6
+service timestamps debug datetime msec
+service timestamps log datetime localtime
+service password-encryption
+service sequence-numbers
+service call-home
+platform qfp utilization monitor load 80
+platform punt-keepalive disable-kernel-core
+platform hardware throughput crypto 50000
+!
+hostname S-HAL-17808-R1
+!
+boot-start-marker
+boot system flash bootflash:c1100-universalk9.17.06.05.SPA.bin
+boot-end-marker
+!
+!
+logging buffered 150000
+no logging console
+no logging monitor
+enable secret 9 $9$PJW70NHw.JoNYE$VFCE9MlUjpUWeob0Y.ejF0tX9KIDQtzPwOZsLik.xWs
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+aaa authorization exec default local 
+aaa authorization network default local 
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone EEST 2 0
+clock summer-time EEST recurring last Sun Mar 3:00 last Sun Oct 4:00
+!
+!
+!
+!
+!
+!
+!
+ip host csms.ddt.gov.gr 84.205.215.32
+ip host csms-preprod.ddt.gov.gr 84.205.215.33
+ip name-server 84.205.218.141 2A10:D000:14:600::D 84.205.219.141 2A10:D000:1C:600::D
+ip domain lookup source-interface Loopback0
+ip domain name ictu.ddt.gov.net
+!
+ip dhcp pool DHCP-DATA-IPv4-pool-3000
+ network 10.46.216.64 255.255.255.224
+ default-router 10.46.216.65 
+ dns-server 84.205.218.140 84.205.219.140 
+!
+!
+!
+login on-success log
+ipv6 unicast-routing
+ipv6 dhcp pool DHCP-DATA-IPv6-pool-3000
+ address prefix 2A10:D001:1811:C500::/64
+ dns-server 2A10:D000:14:600::C
+ dns-server 2A10:D000:1C:600::C
+!
+ipv6 dhcp pool DHCP-VOICE-IPv6-pool-3100
+ address prefix 2A10:D001:2817:5A00::/64
+ dns-server 2A10:D000:14:600::C
+ dns-server 2A10:D000:1C:600::C
+ domain-name cx.ictu.ddt.gov.net
+ vendor-specific 9
+  suboption 1 address 2A10:D000:10:B:6000:0:54CD:D696 2A10:D000:18:5:6000:0:54CD:D6D5
+!
+!
+!
+!
+!
+!
+!
+!
+subscriber templating
+! 
+! 
+! 
+! 
+vtp mode transparent
+!
+
+parameter-map type inspect-global
+ log dropped-packets
+
+parameter-map type inspect AUDIT-TRAIL
+ audit-trail on
+multilink bundle-name authenticated
+!
+flow record netflow-elk
+ description flow-record-elk
+ match ipv4 protocol
+ match ipv4 source address
+ match ipv4 destination address
+ match transport source-port
+ match transport destination-port
+ match interface input
+ match interface output
+ match ipv4 tos
+ collect flow direction
+ collect counter bytes
+ collect counter packets
+ collect transport tcp destination-port
+ collect timestamp absolute last
+ collect transport udp destination-port
+ collect timestamp absolute first
+ collect transport tcp source-port
+ collect transport udp source-port
+ collect timestamp sys-uptime first
+ collect timestamp sys-uptime last
+ collect transport tcp flags
+!
+!
+flow record netflow-elk-v6
+ description flow-record-elk-v6
+ match ipv6 source address
+ match ipv6 destination address
+ match ipv6 protocol
+ match transport source-port
+ match transport destination-port
+ match interface input
+ match interface output
+ collect flow direction
+ collect counter packets
+ collect counter bytes
+ collect transport tcp source-port
+ collect transport tcp destination-port
+ collect timestamp absolute last
+ collect transport udp destination-port
+ collect timestamp absolute first
+ collect transport udp source-port
+ collect timestamp sys-uptime first
+ collect timestamp sys-uptime last
+ collect transport tcp flags
+!
+!
+flow exporter flow-export-elk1
+ description export-to-elk1
+ destination 172.29.139.20
+ source Loopback0
+ transport udp 2055
+ template data timeout 300
+ option interface-table timeout 300
+ option exporter-stats timeout 300
+ option sampler-table timeout 300
+!
+!
+flow exporter flow-export-elk2
+ description export-to-elk2
+ destination 172.29.158.20
+ source Loopback0
+ transport udp 2055
+ template data timeout 300
+ option interface-table timeout 300
+ option exporter-stats timeout 300
+ option sampler-table timeout 300
+!
+!
+flow monitor flow-monitor-elk
+ description datalynk-monitor
+ exporter flow-export-elk1
+ exporter flow-export-elk2
+ statistics packet protocol
+ statistics packet size
+ record netflow-elk
+!
+!
+flow monitor flow-monitor-elk-v6
+ description datalynk-monitor
+ exporter flow-export-elk1
+ exporter flow-export-elk2
+ statistics packet protocol
+ statistics packet size
+ record netflow-elk-v6
+!
+!
+!
+!
+crypto pki trustpoint TP-self-signed-3746016033
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3746016033
+ revocation-check none
+ rsakeypair TP-self-signed-3746016033
+!
+crypto pki trustpoint SLA-TrustPoint
+ enrollment terminal
+ revocation-check crl
+!
+crypto pki trustpoint ddt.gov.gr_sub
+ enrollment terminal
+ usage ssl-server
+ fingerprint 1D102C47C400088295AD604C35CBDEB96042F979
+ revocation-check none
+!
+!
+crypto pki certificate chain TP-self-signed-3746016033
+ certificate self-signed 01
+  30820330 30820218 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33373436 30313630 3333301E 170D3233 30343139 30363335 
+  35385A17 0D333330 34313830 36333535 385A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 37343630 
+  31363033 33308201 22300D06 092A8648 86F70D01 01010500 0382010F 00308201 
+  0A028201 0100C5E0 4356A5C3 0E59EF6B 8ED5069A 629FE6B7 86B8688E A4285DBB 
+  DC71C6DE 8F977C26 E0842371 F905C6A8 65C5A84F 991F1287 1D019AAB BF170648 
+  D2C1E06B EB741F0D 03E03843 A1C948C1 4D44EE76 B9EB7793 69C428D5 B09F6A2C 
+  0890B9EB F1440B6A 25278B57 9FECD91A BCFEED4B 277325F8 34B17B4C A5A19185 
+  3ECF8198 3350B6F5 28BDC2F2 F89FA4DA 6A1BC973 8EC64B4D 662567B3 A960142F 
+  A5817124 E7EFE96B 530D8F99 19EE6208 173E8414 46B98C49 EEB2FBF8 180864B3 
+  18F3CA89 DE51EBB3 79A0AE43 72E255E9 F5F61EBC BAA58B8F 59F9E788 BE4D64A8 
+  D528C63C F9D132BF 6A41F77D 90E6AAA5 E49B0AB7 650E8B69 16082BCF 06F8D802 
+  FA3653AE 278B0203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 
+  301F0603 551D2304 18301680 1408609B 02D2C665 183E16B2 1BBEE895 AADA60B4 
+  76301D06 03551D0E 04160414 08609B02 D2C66518 3E16B21B BEE895AA DA60B476 
+  300D0609 2A864886 F70D0101 05050003 82010100 18A213CC 8968DABB 4A2AC685 
+  D8738185 A914B4E2 ED3CC7B3 E384C044 EA271985 83531471 3F15D933 01BD3DDA 
+  29E82EA8 8835AD3C 2E70BA52 FDC9A904 36C7828B FEC4FADA 5506E38C 2F3E5279 
+  585E0856 A98AD852 339CB227 41E26DBE 14EC4DFE 610CD912 F711BBE0 97F4EEEB 
+  2AC4F134 22802C47 A9AA2E5A 70EB123C EB54FC99 4887739A B27365AC 7AF1B939 
+  C673B1B9 FB1A769A C9A57CD1 0B9E3BA0 56808275 447D19E8 58BD0BED D813870F 
+  6BA7D818 36E698AF F1F3638C 642AACA4 80B794ED 3909716A E869E08C 31C6C332 
+  9597889B C2128570 D3CA1F75 89335F3F F49783A5 5B50C611 0E4E29A3 1977D5A9 
+  1EB899B6 CF5187A3 3BB14CE2 85F8472E F4E887DD
+  	quit
+crypto pki certificate chain SLA-TrustPoint
+ certificate ca 01
+  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030 
+  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363 
+  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934 
+  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305 
+  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720 
+  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 
+  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D 
+  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520 
+  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE 
+  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC 
+  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188 
+  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7 
+  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191 
+  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44 
+  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201 
+  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 14
+2023-09-10 15:32:02,937 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,970 [DEBUG] - read_channel: 
+2023-09-10 15:32:02,999 [DEBUG] - read_channel: 49DC85 
+  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500 
+  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905 
+  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B 
+  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8 
+  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C 
+  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B 
+  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678 
+  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB 
+  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0 
+  D697DF7F 28
+  	quit
+crypto pki certificate chain ddt.gov.gr_sub
+ certificate ca 40DB9A6E5B6E827D4804BA4E0AA0BD0F
+  3082070D 308204F5 A0030201 02021040 DB9A6E5B 6E827D48 04BA4E0A A0BD0F30 
+  0D06092A 864886F7 0D01010B 05003081 A6310B30 09060355 04061302 4752310F 
+  300D0603 55040713 06417468 656E7331 44304206 0355040A 133B4865 6C6C656E 
+  69632041 63616465 6D696320 616E6420 52657365 61726368 20496E73 74697475 
+  74696F6E 73204365 72742E20 41757468 6F726974 79314030 3E060355 04031337 
+  48656C6C 656E6963 20416361 64656D69 6320616E 64205265 73656172 63682049 
+  6E737469 74757469 6F6E7320 526F6F74 43412032 30313530 1E170D31 39303331 
+  34313332 3635335A 170D3334 30333130 31333236 35335A30 8186310B 30090603 
+  55040613 02475231 0F300D06 03550407 0C064174 68656E73 31443042 06035504 
+  0A0C3B48 656C6C65 6E696320 41636164 656D6963 20616E64 20526573 65617263 
+  6820496E 73746974 7574696F 6E732043 6572742E 20417574 686F7269 74793120 
+  301E0603 5504030C 17484152 49434120 53534C20 52534120 53756243 41205233 
+  30820222 300D0609 2A864886 F70D0101 01050003 82020F00 3082020A 02820201 
+  0088D961 7E653E7B CC178C01 58A96EED 31836BAD 7F34F442 1B1E5DD7 179D9898 
+  A4674E32 B8D67BCD 1DE4107D 714CCCD6 B21E99AE B18D0DB6 9877F62F 8FFC7302 
+  58677C4A 1CE7A7E8 06AB27A3 C5371E12 41B828B9 03B1450E CB2C21E1 5E10156E 
+  DA39BC30 7ACBFB04 3A3EAC91 B9C412BF 4AB4ED3B 55DB2140 F71289A9 53DB524F 
+  4AAA65EE BC426872 A334CDA7 4F4AD6F8 4175F197 6E749ACA E5573025 8F5430F7 
+  7E59A793 673DBB4D 4D5905CD A423E59A 851F58D1 4B561E5B CA8340F9 5BF27528 
+  48F658A8 092FE38A F42576FA 4ED6D152 3F6934A3 0A7B5CB7 E98B24A4 DC94469B 
+  874B059D BDD94F91 0E1CBE6C 06314C37 AB1D8CDC 6FD5D516 14F37EAD 85840649 
+  2E54904E 63F6BE85 F701CF7B E1538A22 4D883522 0C7490BB 3574BFAD 7CE57B85 
+  64BE0ED5 B0B2289B 7E195F4A C8950A9C B5C8EC06 DE325F3A CDC59DCD B4054AFF 
+  DF80242E 501063A3 7F99C929 15D2658A 98E2AF93 8AFD6447 6D18EE5B F9B9F834 
+  DE7D828A F22C5DDD E59240E0 FD742384 8965AAB3 03719050 45A54011 B9069D55 
+  86116687 E8E632E8 2FA0EADF 6E39EE41 047A4F33 C30C2154 548AE9DC 52F42988 
+  F798109D 34EE08A3 A7451B55 8D0C2C4F 55D2E49A 368D755B 79A7F4AC 4DA80FB0 
+  FFA75EDA 69A71F3F A1A31A52 C2756588 2F58D447 035C0E33 882E5D81 577F801C 
+  90129888 D773C224 1C7504BD E15291AF 68913454 717E57F6 914D0DBA FD3F5B1F 
+  29020301 0001A382 01533082 014F3012 0603551D 130101FF 04083006 0101FF02 
+  0100301F 0603551D 23041830 16801471 1567C8C8 C9BD755D 72D03818 6A9DF371 
+  24540B30 6F06082B 06010505 07010104 63306130 3C06082B 06010505 07300286 
+  30687474 703A2F2F 7265706F 2E686172 6963612E 67722F63 65727473 2F486172 
+  69636152 6F6F7443 41323031 352E6372 74302106 082B0601 05050730 01861568 
+  7474703A 2F2F6F63 73702E68 61726963 612E6772 30110603 551D2004 0A300830 
+  06060455 1D200030 1D060355 1D250416 30140608 2B060105 05070302 06082B06 
+  01050507 03013046 0603551D 1F043F30 3D303BA0 39A03786 35687474 703A2F2F 
+  63726C76 312E6861 72696361 2E67722F 48617269 6361526F 6F744341 32303135 
+  2F63726C 76312E64 65722E63 726C301D 0603551D 0E041604 143D6985 19517F95 
+  CF515E38 92C8C380 D21FE220 58300E06 03551D0F 0101FF04 04030201 86300D06 
+  092A8648 86F70D01 010B0500 03820201 00876691 A33772E7 13BAAF8B 04AB22EF 
+  DED3BAA2 972025E4 543BD3A9 3EEBE90B 5D7074FA 0506C41C AAD42D5F 73FD77A1 
+  13F6B099 C6DA9282 79A7BA4D DE24E808 DFFE21B4 5F5A32F6 26B96200 C399A044 
+  0E21070E F51435FF F756E2D0 7620AE57 D6D476DC A8E717B0 A07A8893 8404FC19 
+  F662F5C4 277C89DE 2F90D95B A274A6C4 883D2DF2 A9387311 636FA326 D016BEDA 
+  C07AEA14 F8E33D4A 3B53A6AA 19FCCACB EDD242B0 CED21438 21AD82AC 57F901C2 
+  4D5CB15E 15F65A64 5D2281C0 59B5F1C3 D8E9B636 8DF8B7C3 BFCA0B35 6CC31442 
+  FCC454FC 0581678D EBE56DE6 8F6967CA 67026788 750A1698 B4D64A54 C9D7ABC0 
+  C03195A6 BBF09D37 EFE4798E 27D2C29E EAB0BDC5 9863DBC1 7A87AE41 E5170531 
+  D72E5113 34D34728 C55FD96A E713E584 3FD774D2 B6FA0F7A BE10BA95 FD7A0AE5 
+  27FCEEF0 F9AE50F3 B592746B D26B1503 D078D788 89579856 09B32FA8 E0191330 
+  3566A836 648B399C 8D05442B B66840B7 D7CEAF85 2F53D506 8E5105E2 7D803189 
+  2239EAFA 17A9D4A5 8E99AB67 8DCE6DE6 AF6A20E3 BCF8E576 0263A4C4 9E3B4D1C 
+  89E2CEBD 4DB60102 32AAC439 D82ED667 2703C4D1 92647753 F0BF5D6C C1356255 
+  C409B6EB 8F0B7B00 C3094254 39781E2E 039B6B1C 1BBF7928 41FDA853 E6C6B3D3 
+  EDF6F8A0 FC1E51BA 559F1B1E A8C3F499 DCA5039D 9CDB09D2 F383FF37 7EB1DF94 
+  15D85A3D 3D9C0A7A 21D28671 A1BD1393 63
+  	quit
+!
+!
+no license feature hseck9
+license udi pid C1121-8P sn FGL2634L6TZ
+license boot level securityk9
+license smart url default
+license smart transport smart
+license smart proxy address iproxy.ddt.gov.net
+license smart proxy port 80
+archive
+ path bootflash:archive
+ maximum 1
+ write-memory
+memory free low-watermark processor 70888
+!
+diagnostic bootup level minimal
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 1-4094 priority 61440
+!
+username admin privilege 15 secret 9 $9$PJW70NHw.JoNYE$VFCE9MlUjpUWeob0Y.ejF0tX9KIDQtzPwOZsLik.xWs
+username sa-nautobot privilege 15 secret 9 $9$K5ou9SN5KGfEtU$.GPCFKf0/NgsEsd04dnfvcHrScTx3unxoPB/JoOwSZQ
+!
+redundancy
+ mode none
+!
+!
+!
+!
+!
+vlan internal allocation policy ascending
+!
+vlan 3000
+ name data-lan
+!
+vlan 3100
+ name voice-lan-dsl
+!
+!
+class-map match-any QOS-REALTIME-CLASS
+ match dscp ef 
+class-map match-any QOS-SERVICES-RESERVED-NOWRED-CLASS
+ match dscp af31  cs6 
+class-map match-any QOS-SERVICES-RESERVED-WRED-CLASS
+ match dscp af41 
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-DATA-TCP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-MGMT-v6
+ match access-group name ACL-INFRA_MGMT-v6
+class-map type inspect match-all CMAP-INSP-DATA-OUTSIDE-v6
+ match access-group name ACL-DATA-OUTSIDE-v6
+class-map match-any QOS-BUSINESS-CRITICAL-DATA-CLASS
+ match access-group name QOS-BUSINESS-CRITICAL-DATA
+ match access-group name QOS-JABBER-CONFIGURATION
+ match access-group name QOS-JABBER-DIRECTORY-INTEGRATION
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-DATA-UDP
+class-map match-any QOS-BEST-EFFORT-CLASS
+ match access-group name QOS-BEST-EFFORT
+ match dscp default 
+class-map type inspect match-all CMAP-INSP-VOICE-OUTSIDE-v6-TCP
+ match protocol tcp
+ match access-group name ACL-VOICE-OUTSIDE-v6-TCP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-VOICE-v6-TCP
+class-map type inspect match-all CMAP-INSP-VOICE-OUTSIDE-v6-UDP
+ match protocol udp
+ match access-group name ACL-VOICE-OUTSIDE-v6-UDP
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-VOICE-v6-UDP
+class-map type inspect match-any CMAP-INSP-VOICE-PROTOCOL-IN-OUT
+ match protocol dns
+ match protocol tftp
+ match protocol ntp
+ match protocol sip
+ match protocol sip-tls
+ match protocol https
+ match protocol icmp
+class-map type inspect match-any CMAP-INSP-VOICE-PROTOCOL-OUT-IN
+ match protocol sip
+ match protocol sip-tls
+ match protocol icmp
+class-map type inspect match-all CMAP-INSP-OUTSIDE-VOICE-v6
+ match access-group name ACL-OUTSIDE-VOICE-v6
+class-map type inspect match-any CMAP-INSP-MGMT-OUTSIDE
+ match protocol dns
+ match protocol ntp
+ match protocol bgp
+ match protocol syslog
+ match protocol snmp
+ match protocol ftp
+ match protocol tftp
+2023-09-10 15:32:03,030 [DEBUG] - read_channel: 
+ match protocol https
+class-map type inspect match-all CMAP-INSP-OUTSIDE-MGMT
+ match access-group name ACL-OUTSIDE-MGMT
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-v6-UDP
+ match protocol udp
+ match access-group name ACL-OUTSIDE-DATA-v6-UDP
+class-map type inspect match-all CMAP-INSP-DATA-OUTSIDE
+ match access-group name ACL-DATA-OUTSIDE
+class-map type inspect match-all CMAP-INSP-OUTSIDE-DATA-v6-TCP
+ match protocol tcp
+ match access-group name ACL-OUTSIDE-DATA-v6-TCP
+class-map match-any QOS-REALTIME-MARKING-CLASS
+ match access-group name QOS-VOICE-MEDIA-EXCHANGE
+class-map match-any QOS-VIDEO-MEDIA-EXCHANGE-MARKING-CLASS
+ match access-group name QOS-VIDEO-MEDIA-EXCHANGE
+class-map match-any QOS-TRANSACTIONAL-DATA-CLASS
+ match dscp af21  af22  af23 
+class-map match-any QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING-CLASS
+ match access-group name QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING
+!
+policy-map QOS-INPUT-CLASSIFY-MARKING
+ class QOS-REALTIME-MARKING-CLASS
+  set dscp ef
+ class QOS-VIDEO-MEDIA-EXCHANGE-MARKING-CLASS
+  set dscp af41
+ class QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING-CLASS
+  set dscp af31
+ class QOS-BUSINESS-CRITICAL-DATA-CLASS
+  set dscp af21
+ class QOS-BEST-EFFORT-CLASS
+  set dscp default
+policy-map type inspect PMAP-DATA-OUTSIDE
+ class type inspect CMAP-INSP-DATA-OUTSIDE
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-DATA-OUTSIDE-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map QOS-CHILD-QOS-MAP
+ class QOS-REALTIME-CLASS
+  priority percent 22
+ class QOS-SERVICES-RESERVED-NOWRED-CLASS
+  bandwidth remaining percent 23 
+ class QOS-SERVICES-RESERVED-WRED-CLASS
+  bandwidth remaining percent 12 
+  random-detect dscp-based
+ class QOS-TRANSACTIONAL-DATA-CLASS
+  bandwidth remaining percent 20 
+  random-detect dscp-based
+ class QOS-BEST-EFFORT-CLASS
+  bandwidth remaining percent 23 
+  random-detect dscp-based
+policy-map QOS-PARENT-QOS-MAP-XDSL
+ class class-default
+  shape average percent 80   
+   service-policy QOS-CHILD-QOS-MAP
+policy-map type inspect PMAP-OUTSIDE-VOICE
+ class type inspect CMAP-INSP-VOICE-PROTOCOL-OUT-IN
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6-UDP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-VOICE-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-OUTSIDE-MGMT
+ class type inspect CMAP-INSP-OUTSIDE-MGMT
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-MGMT-v6
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-MGMT-OUTSIDE
+ class type inspect CMAP-INSP-MGMT-OUTSIDE
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-OUTSIDE-DATA
+ class type inspect CMAP-INSP-OUTSIDE-DATA-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-UDP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-OUTSIDE-DATA-v6-UDP
+  inspect AUDIT-TRAIL
+ class class-default
+policy-map type inspect PMAP-VOICE-OUTSIDE
+ class type inspect CMAP-INSP-VOICE-PROTOCOL-IN-OUT
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-VOICE-OUTSIDE-v6-TCP
+  inspect AUDIT-TRAIL
+ class type inspect CMAP-INSP-VOICE-OUTSIDE-v6-UDP
+  inspect AUDIT-TRAIL
+ class class-default
+!
+zone security DATA
+zone security VOICE
+zone security MGMT
+zone security OUTSIDE
+zone-pair security DATA-OUTSIDE source DATA destination OUTSIDE
+ service-policy type inspect PMAP-DATA-OUTSIDE
+zone-pair security MGMT-OUTSIDE source MGMT destination OUTSIDE
+ service-policy type inspect PMAP-MGMT-OUTSIDE
+zone-pair security OUTSIDE-DATA source OUTSIDE destination DATA
+ service-policy type inspect PMAP-OUTSIDE-DATA
+zone-pair security OUTSIDE-MGMT source OUTSIDE destination MGMT
+ service-policy type inspect PMAP-OUTSIDE-MGMT
+zone-pair security OUTSIDE-VOICE source OUTSIDE destination VOICE
+ service-policy type inspect PMAP-OUTSIDE-VOICE
+zone-pair security VOICE-OUTSIDE source VOICE destination OUTSIDE
+ service-policy type inspect PMAP-VOICE-OUTSIDE
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+! 
+!
+!
+interface Loopback0
+ description MANAGEMENT-LOOPBACK
+ ip address 172.23.35.71 255.255.255.255
+ ipv6 address 2A10:D001:810:1791::1/128
+!
+interface GigabitEthernet0/0/0
+ description [MO:WAN-PRI1]
+ no ip address
+ negotiation auto
+ pppoe enable group global
+ pppoe-client dial-pool-number 1
+!
+interface GigabitEthernet0/0/1
+ ip dhcp client client-id ascii cisco-34b8.83d0.4d81-Gi0/0/1
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet0/1/0
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/1
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/2
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/3
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/4
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/5
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/6
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1/7
+ description [LAN end user and IP Phone]
+ switchport access vlan 3000
+ switchport mode access
+ switchport voice vlan 3100
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan3000
+ description [LAN-DATA-3000]
+ ip address 10.46.216.65 255.255.255.224
+ ip verify unicast source reachable-via rx
+ zone-member security DATA
+ ip tcp adjust-mss 1340
+ ipv6 address 2A10:D001:1811:C500::1/64
+ ipv6 enable
+ ipv6 nd other-config-flag
+ ipv6 tcp adjust-mss 1340
+ ipv6 dhcp server DHCP-DATA-IPv6-pool-3000
+ ipv6 verify unicast source reachable-via rx
+!
+interface Vlan3100
+ description [LAN-VOICE-3100]
+ no ip address
+ ip verify unicast source reachable-via rx
+ zone-member security VOICE
+ ip tcp adjust-mss 1380
+ ipv6 address 2A10:D001:2817:5A00::1/64
+ ipv6 enable
+ ipv6 nd prefix 2A10:D001:2817:5A00::/64 14400 14400 no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 nd other-config-flag
+ ipv6 tcp adjust-mss 1360
+ ipv6 dhcp server DHCP-VOICE-IPv6-pool-3100
+ ipv6 verify unicast source reachable-via rx
+!
+interface Dialer1
+ description [IP:WAN-PRI1]
+ mtu 1492
+ bandwidth 5000
+ ip flow monitor flow-monitor-elk input
+ ip flow monitor flow-monitor-elk output
+ ip address negotiated
+ zone-member security OUTSIDE
+ encapsulation ppp
+ dialer pool 1
+ dialer-group 1
+ ipv6 flow monitor flow-monitor-elk-v6 input
+ ipv6 flow monitor flow-monitor-elk-v6 output
+ ipv6 address FE80::1 link-local
+ ipv6 address autoconfig
+ ipv6 enable
+ ipv6 dhcp client request vendor
+ ppp authentication pap callin
+ ppp pap sent-username VPN_SYZEYXIS_II_GR_OTE_ON_21P2056664@syzefxis2.otevpn.gr password 7 122a1c0d410d14553979
+ service-policy output QOS-PARENT-QOS-MAP-XDSL
+!
+router bgp 65222
+ bgp log-neighbor-changes
+ no bgp default ipv4-unicast
+ neighbor 83.235.1.100 remote-as 6799
+ neighbor 83.235.1.100 description [WAN-PRI1-IPV4-PEER]
+ neighbor 83.235.1.100 update-source D
+2023-09-10 15:32:03,061 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,092 [DEBUG] - read_channel: ialer1
+ !
+ address-family ipv4
+  redistribute connected
+  neighbor 83.235.1.100 activate
+  neighbor 83.235.1.100 send-community both
+  neighbor 83.235.1.100 soft-reconfiguration inbound
+  neighbor 83.235.1.100 route-map rm-primary-in-v4 in
+  neighbor 83.235.1.100 route-map rm-primary-out-v4 out
+ exit-address-family
+ !
+ address-family ipv6
+  redistribute connected
+  neighbor 83.235.1.100 activate
+  neighbor 83.235.1.100 send-community both
+  neighbor 83.235.1.100 soft-reconfiguration inbound
+  neighbor 83.235.1.100 route-map rm-primary-in-v6 in
+  neighbor 83.235.1.100 route-map rm-primary-out-v6 out
+ exit-address-family
+!
+no ip http server
+ip http access-class ipv4 ACL-INFRA_MGMT
+ip http access-class ipv6 ACL-INFRA_MGMT-v6
+ip http authentication local
+ip http secure-server
+ip http secure-ciphersuite rsa-aes-gcm-sha2 dhe-aes-gcm-sha2 ecdhe-rsa-aes-gcm-sha2 ecdhe-ecdsa-aes-gcm-sha2 
+ip http tls-version TLSv1.2 
+ip http client source-interface Loopback0
+ip http client secure-trustpoint SLA-TrustPoint
+ip forward-protocol nd
+ip ftp source-interface Loopback0
+ip tftp source-interface Loopback0
+ip tftp blocksize 8192
+ip route 0.0.0.0 0.0.0.0 Dialer1 250
+ip ssh version 2
+ip ssh dh min size 4096
+ip scp server enable
+!
+ip bgp-community new-format
+!
+ip access-list standard ACL-INFRA_MGMT
+ 10 remark OOB SSL VPN Prefixes
+ 10 permit 172.16.100.0 0.0.0.255
+ 20 permit 172.16.101.0 0.0.0.255
+ 30 remark Central System Prefixes
+ 30 permit 172.29.128.0 0.0.15.255
+ 40 remark ISP/SLA Prefixes
+ 40 permit 192.168.0.0 0.0.255.255
+ 50 remark Public Prefixes - Y3
+ 50 permit 84.205.214.0 0.0.0.255
+ 60 permit 84.205.215.0 0.0.0.255
+ 70 permit 84.205.216.0 0.0.0.255
+ 80 remark Public Prefixes - Y3
+ 80 permit 84.205.217.0 0.0.0.255
+ 90 remark Public Prefixes - Y3
+ 90 permit 84.205.218.0 0.0.0.255
+ 100 remark Nautobot
+ 100 permit 172.29.160.0 0.0.0.255
+ 110 remark RAVPN Athens Admins
+ 110 permit 172.29.0.0 0.0.0.255
+ 120 remark RAVPN Chania Admins
+ 120 permit 172.29.64.0 0.0.0.255
+ 130 remark HELPDESK Singular
+ 130 permit 172.29.147.0 0.0.0.255
+!
+ip access-list extended ACL-DATA-OUTSIDE
+ 10 remark Permit-Data-Traffic
+ 10 permit ip 10.0.0.0 0.255.255.255 any
+ip access-list extended ACL-OUTSIDE-DATA-TCP
+ 10 remark Permit-Jabber-Traffic
+ 10 permit tcp any 10.0.0.0 0.255.255.255 eq 2748
+ 20 permit tcp any 10.0.0.0 0.255.255.255 eq 389
+ 30 permit tcp any 10.0.0.0 0.255.255.255 range 3268 3269
+ 40 permit tcp any 10.0.0.0 0.255.255.255 eq 636
+ 50 permit tcp any 10.0.0.0 0.255.255.255 eq 5060
+ 60 permit tcp any 10.0.0.0 0.255.255.255 eq 3804
+ 70 permit tcp any 10.0.0.0 0.255.255.255 range 6970 6972
+ 80 permit tcp any 10.0.0.0 0.255.255.255 eq 8191
+ip access-list extended ACL-OUTSIDE-DATA-UDP
+ 10 remark Permit-Jabber-Traffic
+ 10 permit udp any 10.0.0.0 0.255.255.255 range 30000 39999
+ 20 permit udp any 10.0.0.0 0.255.255.255 range 5070 6070
+ip access-list extended ACL-OUTSIDE-MGMT
+ 10 remark RAVPN Athens Prefixes
+ 10 permit ip 172.29.0.0 0.0.0.255 any
+ 20 remark RAVPN Chania Prefixes
+ 20 permit ip 172.29.64.0 0.0.0.255 any
+ 30 remark permit Helpdesk to to SW,IPS,PBX
+ 30 permit ip 172.29.147.0 0.0.0.255 any
+ 40 remark Central System Prefixes
+ 40 permit ip 172.29.128.0 0.0.15.255 any
+ 50 remark Permit Nautobot access to CPE
+ 50 permit ip 172.29.160.0 0.0.0.255 any
+ 60 remark ISP/SLA Prefixes
+ 60 permit ip 192.168.0.0 0.0.255.255 any
+ 70 remark Public Prefixes - Y3
+ 70 permit ip 84.205.214.0 0.0.1.255 any
+ 80 permit ip 84.205.216.0 0.0.1.255 any
+ 90 remark Temp-Sizefxis-1 Subnet
+ 90 permit ip 10.33.167.236 0.0.0.3 any
+ 100 remark FTP server
+ 100 permit ip host 84.205.218.160 any
+ip access-list extended QOS-BEST-EFFORT
+ 10 permit udp any any eq syslog
+ remark TO-BE-DEFINED
+ip access-list extended QOS-BUSINESS-CRITICAL-DATA
+ 10 permit udp any any eq syslog
+ remark TO-BE-DEFINED
+ip access-list extended QOS-JABBER-COMMUNICATION-MANAGER-SIGNALING
+ 10 permit tcp any any eq 2748
+ 20 permit tcp any any eq 5060
+ 30 permit tcp any any eq 5061
+ 40 permit udp any any range 30000 39999
+ 50 permit udp any any range 5070 6070
+ip access-list extended QOS-JABBER-CONFIGURATION
+ 10 permit tcp any any eq 6970
+ 20 permit tcp any any eq 6972
+ 30 permit tcp any any eq 3804
+ 40 permit tcp any any eq 8191
+ip access-list extended QOS-JABBER-DIRECTORY-INTEGRATION
+ 10 permit tcp any any eq 389
+ 20 permit tcp any any eq 3268
+ 30 permit tcp any any eq 636
+ 40 permit tcp any any eq 3269
+ip access-list extended QOS-VIDEO-MEDIA-EXCHANGE
+ 10 permit udp any any range 24575 32766
+ip access-list extended QOS-VOICE-MEDIA-EXCHANGE
+ 10 permit udp any any range 16384 24574
+!
+logging history size 20
+logging history informational
+logging origin-id hostname
+logging facility local6
+logging source-interface Loopback0
+logging host 172.29.139.20
+logging host 172.29.158.20
+dialer-list 1 protocol ip permit
+!
+route-map rm-primary-in-v6 permit 100 
+!
+route-map rm-primary-in-v4 permit 100 
+!
+route-map rm-primary-out-v6 permit 100 
+ set ipv6 next-hop 2A10:D000:165:6500::1
+!
+route-map rm-primary-out-v4 permit 100 
+!
+snmp-server community KMyE5Nsn3n7R0:HIfz-d RO
+snmp-server trap-source Loopback0
+snmp-server location S-HAL-17808-7-ASM-ASM-OTE-ICTU
+snmp-server enable traps snmp linkdown linkup coldstart warmstart
+snmp-server enable traps config
+snmp-server enable traps cpu threshold
+snmp-server enable traps bgp state-changes updown-limited
+snmp-server host 172.29.139.20 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp-server host 172.29.158.20 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp-server host 84.205.218.37 version 2c KMyE5Nsn3n7R0:HIfz-d 
+snmp ifmib ifindex persist
+!
+!
+!
+!
+ipv6 access-list ACL-DATA-OUTSIDE-v6
+ sequence 10 remark Permit-Data-Traffic
+ sequence 20 permit ipv6 2A10:D001:1800::/38 any
+ sequence 30 remark Permit-Data-Traffic-ICMP
+ sequence 40 permit icmp any any
+!
+ipv6 access-list ACL-INFRA_MGMT-v6
+ sequence 10 remark Prefixes for Central systems and ISP/SLA
+ sequence 20 permit ipv6 2A10:D000:10::/44 any
+!
+ipv6 access-list ACL-OUTSIDE-DATA-v6-TCP
+ sequence 10 remark Permit-Jabber-Traffic
+ sequence 20 permit tcp any 2A10:D001:1800::/38 eq 2748
+ sequence 30 permit tcp any 2A10:D001:1800::/38 eq 389
+ sequence 40 permit tcp any 2A10:D001:1800::/38 range 3268 3269
+ sequence 50 permit tcp any 2A10:D001:1800::/38 eq 636
+ sequence 60 permit tcp any 2A10:D001:1800::/38 eq 5060
+ sequence 70 permit tcp any 2A10:D001:1800::/38 eq 2445
+ sequence 80 permit tcp any 2A10:D001:1800::/38 eq 3804
+ sequence 90 permit tcp any 2A10:D001:1800::/38 range 6970 6972
+ sequence 100 permit tcp any 2A10:D001:1800::/38 eq 8191
+!
+ipv6 access-list ACL-OUTSIDE-DATA-v6-UDP
+ sequence 10 remark Permit-Jabber-Traffic
+ sequence 20 permit udp any 2A10:D001:1800::/38 range 30000 39999
+ sequence 30 permit udp any 2A10:D001:1800::/38 range 5070 6070
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6
+ sequence 10 remark Permit-Voice-Traffic-From-CUCM-SBC
+ sequence 20 permit ipv6 2A10:D000:10:B::/64 2A10:D001:2800::/38
+ sequence 30 permit ipv6 2A10:D000:10:C::/64 2A10:D001:2800::/38
+ sequence 40 permit ipv6 2A10:D000:18:5::/64 2A10:D001:2800::/38
+ sequence 50 permit ipv6 2A10:D000:18:6::/64 2A10:D001:2800::/38
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6-TCP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit tcp any 2A10:D001:2800::/38 eq 5060
+!
+ipv6 access-list ACL-OUTSIDE-VOICE-v6-UDP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit udp any 2A10:D001:2800::/38 range 8000 48200
+!
+ipv6 access-list ACL-VOICE-OUTSIDE-v6-TCP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permit tcp 2A10:D001:2800::/38 any eq 5060
+ sequence 30 permit tcp 2A10:D001:2800::/38 any eq 2445
+ sequence 40 permit tcp 2A10:D001:2800::/38 any eq 3804
+ sequence 50 permit tcp 2A10:D001:2800::/38 any range 6970 6972
+ sequence 60 permit tcp 2A10:D001:2800::/38 any eq 8080
+ sequence 70 permit tcp 2A10:D001:2800::/38 any eq 8443
+ sequence 80 permit tcp 2A10:D001:2800::/38 any range 9443 9444
+!
+ipv6 access-list ACL-VOICE-OUTSIDE-v6-UDP
+ sequence 10 remark Permit-Voice-Traffic
+ sequence 20 permi
+2023-09-10 15:32:03,122 [DEBUG] - read_channel: t udp 2A10:D001:2800::/38 any range 8000 48200
+!
+control-plane
+!
+!
+line con 0
+ password 7 081255745B395645432B
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ access-class ACL-INFRA_MGMT in vrf-also
+ exec-timeout 30 0
+ privilege level 15
+ ipv6 access-class ACL-INFRA_MGMT-v6 in
+ logging synchronous
+ transport input ssh
+line vty 5 15
+ access-class ACL-INFRA_MGMT in vrf-also
+ exec-timeout 30 0
+ ipv6 access-class ACL-INFRA_MGMT-v6 in
+ logging synchronous
+ transport input ssh
+!
+call-home
+ ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com
+ ! the email address configured in Cisco Smart License Portal will be used as contact email address to send SCH notifications.
+ contact-email-addr sch-smart-licensing@cisco.com
+ profile "CiscoTAC-1"
+  active
+  destination transport-method http
+ntp source Loopback0
+ntp server 84.205.218.190 prefer
+ntp server 84.205.219.190
+ntp server 2A10:D000:14:600::3E prefer
+ntp server 2A10:D000:1C:600::3E
+!
+!
+!
+!
+!
+!
+restconf
+end
+
+S-HAL-17808-R1#
+2023-09-10 15:32:03,138 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,139 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,170 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,171 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,199 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,199 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,260 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:03,276 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,276 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:03,276 [DEBUG] - write_channel: b'show version\n'
+2023-09-10 15:32:03,276 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,291 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,307 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,323 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:03,339 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,354 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,371 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,385 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,401 [DEBUG] - read_channel: sh
+2023-09-10 15:32:03,416 [DEBUG] - read_channel: ow vers
+2023-09-10 15:32:03,431 [DEBUG] - read_channel: ion
+
+2023-09-10 15:32:03,431 [DEBUG] - Pattern found: (show\ version) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show version
+2023-09-10 15:32:03,462 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,492 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,523 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,554 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,585 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,616 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,647 [DEBUG] - read_channel: Cisco IOS XE Software, Version 17.06.05
+Cisco IOS Software [Bengaluru], ISR Software (ARMV8EL_LINUX_IOSD-UNIVERSALK9-M), Version 17.6.5, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2023 by Cisco Systems, Inc.
+Compiled Wed 25-Jan-23 15:15 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2023 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: (c)
+
+S-HAL-17808-R1 uptime is 6 weeks, 5 days, 4 hours, 50 minutes
+Uptime for this control processor is 6 weeks, 5 days, 4 hours, 52 minutes
+System returned to ROM by PowerOn at 10:06:09 EEST Wed Apr 19 2023
+System restarted at 10:41:14 EEST Tue Jul 25 2023
+System image file is "bootflash:c1100-universalk9.17.06.05.SPA.bin"
+Last reload reason: PowerOn
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+
+Suite License Information for Module:'esg' 
+
+--------------------------------------------------------------------------------
+Suite                 Suite Current         Type           Suite Next reboot     
+--------------------------------------------------------------------------------
+FoundationSuiteK9     None                  Smart License  None                  
+securityk9
+appxk9
+
+
+Technology Package License Information: 
+
+-----------------------------------------------------------------
+Technology    Technology-package           Technology-package
+              Current       Type           Next reboot  
+------------------------------------------------------------------
+appxk9           None             Smart License    None
+uck9             None             Smart License    None
+securityk9       securityk9       Smart License    securityk9
+ipbase           ipbasek9         Smart License    ipbasek9
+
+The current throughput level is unthrottled 
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C1121-8P (1RU) processor with 1397861K/6147K bytes of memory.
+Processor board ID FGL2634L6TZ
+Router operating mode: Autonomous
+3 Virtual Ethernet interfaces
+10 Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+4194304K bytes of physical memory.
+2945023K bytes of flash memory at bootflash:.
+
+Configuration register is 0x2102
+
+S-HAL-17808-R1#
+2023-09-10 15:32:03,663 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,664 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,695 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,695 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,726 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,727 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:03,789 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:03,804 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,804 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:03,805 [DEBUG] - write_channel: b'show license status\n'
+2023-09-10 15:32:03,805 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,820 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,837 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,853 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,868 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:03,883 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,899 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,914 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,929 [DEBUG] - read_channel: 
+2023-09-10 15:32:03,944 [DEBUG] - read_channel: sh
+2023-09-10 15:32:03,959 [DEBUG] - read_channel: ow licen
+2023-09-10 15:32:03,974 [DEBUG] - read_channel: se stat
+2023-09-10 15:32:03,989 [DEBUG] - read_channel: us
+
+2023-09-10 15:32:03,990 [DEBUG] - Pattern found: (show\ license\ status) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show license status
+2023-09-10 15:32:04,020 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,051 [DEBUG] - read_channel: Utility:
+  Status: DISABLED
+
+Smart Licensing Using Policy:
+  Status: ENABLED
+
+Data Privacy:
+  Sending Hostname: yes
+    Callhome hostname privacy: DISABLED
+    Smart Licensing hostname privacy: DISABLED
+  Version privacy: DISABLED
+
+Transport:
+  Type: Smart
+  URL: https://smartreceiver.cisco.com/licservice/license
+  Proxy:
+    Address: iproxy.ddt.gov.net
+    Port: 80
+    Username: <empty>
+    Password: <empty>
+
+Policy:
+  Policy in use: Merged from multiple sources.
+  Reporting ACK required: yes (CISCO default)
+  Unenforced/Non-Export Perpetual Attributes:
+    First report requirement (days): 365 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 90 (CISCO default)
+  Unenforced/Non-Export Subscription Attributes:
+    First report requirement (days): 90 (CISCO default)
+    Reporting frequency (days): 90 (CISCO default)
+    Report on change (days): 90 (CISCO default)
+  Enforced (Perpetual/Subscription) License Attributes:
+    First report requirement (days): 0 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 0 (CISCO default)
+  Export (Perpetual/Subscription) License Attributes:
+    First report requirement (days): 0 (CISCO default)
+    Reporting frequency (days): 0 (CISCO default)
+    Report on change (days): 0 (CISCO default)
+
+Miscellaneous:
+  Custom Id: <empty>
+
+Usage Reporting:
+  Last ACK received: Aug 24 10:47:58 2023 EEST
+  Next ACK deadline: <none>
+  Reporting push interval: 0 (no reporting)
+  Next ACK push check: <none>
+  Next report push: <none>
+  Last report push: Aug 24 10:42:58 2023 EEST
+  Last report file write: <none>
+
+Trust Code Installed: Apr 19 10:12:26 2023 EEST
+
+
+S-HAL-17808-R1#
+2023-09-10 15:32:04,067 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,067 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,098 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,099 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,129 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,129 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,192 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:04,208 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,208 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:04,208 [DEBUG] - write_channel: b'show ipv6 interface vlan3000\n'
+2023-09-10 15:32:04,208 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,222 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,238 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,254 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:04,269 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,286 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,301 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,316 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,331 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,347 [DEBUG] - read_channel: show ipv6
+2023-09-10 15:32:04,362 [DEBUG] - read_channel:  
+2023-09-10 15:32:04,378 [DEBUG] - read_channel: interface 
+2023-09-10 15:32:04,394 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,412 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,425 [DEBUG] - read_channel: vlan
+2023-09-10 15:32:04,439 [DEBUG] - read_channel: 3000
+
+2023-09-10 15:32:04,440 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3000) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3000
+2023-09-10 15:32:04,470 [DEBUG] - read_channel: Vlan3000 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-DATA-3000]
+  Global unicast address(es):
+    2A10:D001:1811:C500::1, subnet is 2A10:D001:1811:C500::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use stateless autoconfig for addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:32:04,486 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,487 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,516 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,517 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,547 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,548 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,609 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:04,625 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,626 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:04,626 [DEBUG] - write_channel: b'show ipv6 interface vlan3100\n'
+2023-09-10 15:32:04,627 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,640 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,655 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,671 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:04,687 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,702 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,720 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,734 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,750 [DEBUG] - read_channel: sh
+2023-09-10 15:32:04,766 [DEBUG] - read_channel: ow ipv6 interface 
+2023-09-10 15:32:04,781 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,797 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,813 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,828 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,843 [DEBUG] - read_channel: vlan310
+2023-09-10 15:32:04,859 [DEBUG] - read_channel: 0
+Vlan3100 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-VOICE-3100]
+  Global unicast address(es):
+    2A10:D001:2817:5A00::1, subnet is 2A10:D001:2817:5A00::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use DHCP to obtain routable addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:32:04,860 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3100) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3100
+2023-09-10 15:32:04,890 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,906 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,906 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,938 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,938 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:04,968 [DEBUG] - read_channel: 
+2023-09-10 15:32:04,968 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,030 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:05,046 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,047 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:05,047 [DEBUG] - write_channel: b'show ipv6 interface vlan3000\n'
+2023-09-10 15:32:05,047 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,062 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,077 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,094 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:05,110 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,125 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,140 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,157 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,172 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,188 [DEBUG] - read_channel: show i
+2023-09-10 15:32:05,203 [DEBUG] - read_channel: pv6 inte
+2023-09-10 15:32:05,218 [DEBUG] - read_channel: rface 
+2023-09-10 15:32:05,234 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,249 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,265 [DEBUG] - read_channel: vl
+2023-09-10 15:32:05,281 [DEBUG] - read_channel: an3000
+
+2023-09-10 15:32:05,282 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3000) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3000
+2023-09-10 15:32:05,311 [DEBUG] - read_channel: Vlan3000 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-DATA-3000]
+  Global unicast address(es):
+    2A10:D001:1811:C500::1, subnet is 2A10:D001:1811:C500::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use stateless autoconfig for addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:32:05,327 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,327 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,358 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,358 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,390 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,390 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,453 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+2023-09-10 15:32:05,469 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,469 [DEBUG] - [find_prompt()]: prompt is S-HAL-17808-R1#
+2023-09-10 15:32:05,470 [DEBUG] - write_channel: b'show ipv6 interface vlan3100\n'
+2023-09-10 15:32:05,470 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,483 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,498 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,514 [DEBUG] - read_channel: 
+S-HAL-17808-R1#
+S-HAL-17808-R1#
+2023-09-10 15:32:05,529 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,544 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,560 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,576 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,592 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,608 [DEBUG] - read_channel: show ipv
+2023-09-10 15:32:05,623 [DEBUG] - read_channel: 6 interf
+2023-09-10 15:32:05,639 [DEBUG] - read_channel: ace 
+2023-09-10 15:32:05,654 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,670 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,686 [DEBUG] - read_channel: vlan
+2023-09-10 15:32:05,701 [DEBUG] - read_channel: 3100
+
+2023-09-10 15:32:05,702 [DEBUG] - Pattern found: (show\ ipv6\ interface\ vlan3100) 
+S-HAL-17808-R1#
+S-HAL-17808-R1#show ipv6 interface vlan3100
+2023-09-10 15:32:05,733 [DEBUG] - read_channel: Vlan3100 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::36B8:83FF:FED0:4DF4 
+  No Virtual link-local address(es):
+  Description: [LAN-VOICE-3100]
+  Global unicast address(es):
+    2A10:D001:2817:5A00::1, subnet is 2A10:D001:2817:5A00::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:2
+    FF02::1:FF00:1
+    FF02::1:FFD0:4DF4
+    FF05::1:3
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  Input features: Verify Unicast Reverse-Path IPv6 TCP Adjust MSS
+  Output features: Virtual fragment reassembly in Egress IPv6 TCP Adjust MSS
+ IPv6 verify source reachable-via rx
+   0 verification drop(s) (process), 0 (CEF)
+   0 suppressed verification drop(s) (process), 0 (CEF)
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use DHCP to obtain routable addresses.
+  Hosts use DHCP to obtain other configuration.
+S-HAL-17808-R1#
+2023-09-10 15:32:05,749 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,749 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,780 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,780 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,808 [WARNING] -  * Debugger is active!
+2023-09-10 15:32:05,809 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:32:05,811 [DEBUG] - read_channel: 
+2023-09-10 15:32:05,811 [DEBUG] - write_channel: b'\n'
+2023-09-10 15:32:05,821 [DEBUG] - EOF in transport thread
+2023-09-10 15:32:10,488 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.29.64.242:443
+2023-09-10 15:32:10,488 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:32:10,488 [INFO] -  * Restarting with stat
+2023-09-10 15:32:11,738 [WARNING] -  * Debugger is active!
+2023-09-10 15:32:11,745 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:32:13,363 [WARNING] -  * Debugger is active!
+2023-09-10 15:32:13,363 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:33:34,465 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.29.64.242:443
+2023-09-10 15:33:34,465 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:33:34,484 [INFO] -  * Restarting with stat
+2023-09-10 15:33:35,702 [WARNING] -  * Debugger is active!
+2023-09-10 15:33:35,709 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:33:39,310 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:33:39,373 [INFO] -  * Restarting with stat
+2023-09-10 15:33:40,527 [WARNING] -  * Debugger is active!
+2023-09-10 15:33:40,534 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:33:57,732 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:33:57,793 [INFO] -  * Restarting with stat
+2023-09-10 15:33:58,877 [WARNING] -  * Debugger is active!
+2023-09-10 15:33:58,884 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:35:10,885 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:35:10,937 [INFO] -  * Restarting with stat
+2023-09-10 15:35:12,107 [WARNING] -  * Debugger is active!
+2023-09-10 15:35:12,115 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:35:18,116 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:35:18,172 [INFO] -  * Restarting with stat
+2023-09-10 15:35:19,261 [WARNING] -  * Debugger is active!
+2023-09-10 15:35:19,268 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:36:36,210 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:36:36,271 [INFO] -  * Restarting with stat
+2023-09-10 15:36:37,631 [WARNING] -  * Debugger is active!
+2023-09-10 15:36:37,640 [INFO] -  * Debugger PIN: 417-861-155
+2023-09-10 15:37:13,148 [INFO] -  * Detected change in 'C:\\Users\\nazirogloup\\Documents\\VScode\\dev\\scripts\\SIZ_wan_healthchecks\\api_wan_checks.py', reloading
+2023-09-10 15:37:13,237 [INFO] -  * Restarting with stat
+2023-09-10 15:37:53,182 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.29.64.242:443
+2023-09-10 15:37:53,182 [INFO] - [33mPress CTRL+C to quit[0m
+2023-09-10 15:37:53,198 [INFO] -  * Restarting with stat
+2023-09-10 15:37:54,442 [WARNING] -  * Debugger is active!
+2023-09-10 15:37:54,449 [INFO] -  * Debugger PIN: 417-861-155
