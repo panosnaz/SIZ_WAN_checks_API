@@ -1,13 +1,14 @@
 build/
 dist/
 cert/
+exe/
 **/*.exe
 output_files/
 config.py
-.env
-**/*.pem
-**/*.docx
-**/*.drawio
-**/*.bkp
-**/*.dtmp
+*.env
+*.pem
+*.docx
+*.drawio
+*.bkp
+*.dtmp
 
