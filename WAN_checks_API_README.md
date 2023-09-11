@@ -25,7 +25,7 @@ Before running the script, make sure you have the following prerequisites:
 
 `pip install -r requirements.txt`
 
-3. Configure the devices and health check parameters in the api_wan_checks.py file:
+3. Configure the devices and health check parameters in the WAN_checks_API.py file:
 
 - Update the device_login() function with the appropriate login credentials for your devices or create a config.py file and define there the username and password variables.
 - Modify the parameters in the main() function based on your network setup.
@@ -33,7 +33,7 @@ Before running the script, make sure you have the following prerequisites:
 
 4. Start the Flask application by running the following command:
 
-`python api_wan_checks.py`
+`python WAN_checks_API.py`
 
 5. Send a JSON POST request to the API endpoint using tools like Postman or Power Automate:
 
