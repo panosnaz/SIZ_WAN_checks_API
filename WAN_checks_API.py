@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: api_wan_checks_v1.3.1.exe
+# EXE Version: WAN_checks_API_v1.3.2.exe
 
 """
 
@@ -35,6 +35,44 @@ from config import username, password  # Import credentials from config.py
 from config import AUTH_TOKEN          # Import API token
 # Import the IP addresses of BGP neighbors for different providers for for Aplos & PSD tenants
 from config import ote_bgp_neighbor, wind_bgp_neighbor, wind_bgp_v6_neighbor, nova_bgp_neighbor, nova_bgp_v6_neighbor, vodafone_bgp_neighbor, vodafone_bgp_v6_neighbor
+
+# Logging console to 'console_log.txt'
+# ------------------------------------
+import logging
+import sys
+
+# Define a custom logger
+logger = logging.getLogger('my_logger')
+logger.setLevel(logging.INFO)
+
+# Create a file handler to write log messages to a file
+log_file = 'console_log.txt'
+file_handler = logging.FileHandler(log_file)
+
+# Define a log format
+log_format = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(log_format)
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
+
+# Redirect stdout to the logger
+class StreamToLogger:
+    def __init__(self, logger, log_level=logging.INFO):
+        self.logger = logger
+        self.log_level = log_level
+        self.linebuf = ''
+
+    def write(self, buf):
+        for line in buf.rstrip().splitlines():
+            self.logger.log(self.log_level, line.rstrip())
+
+    def flush(self):
+        pass  # Add a flush method to satisfy the 'flush' attribute
+
+# Use the custom stream to logger class to redirect stdout
+sys.stdout = StreamToLogger(logger, logging.INFO)
+# ------------------------------------
 
 
 # Current time and formats it to "Year/Month/Day__Time".
@@ -442,6 +480,7 @@ def device_login(device_ip):
     try:
         net_connect = ConnectHandler(**device)
         hostname = net_connect.find_prompt()[:-1] 
+        print('######################################################################################')
         cprint(f"Successfully connected to {device_ip}", 'green')
         return net_connect, hostname, device      
     
@@ -467,6 +506,8 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     """
 
     LICENSE_REPORT = "OK" 
+
+    cprint(f"CPE Router hostname is: {hostname}", 'green')
 
     # Extract S/N & image
     output = net_connect.send_command("show version")
@@ -546,7 +587,7 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
 @app.route('/wanchecks/', methods=['POST'])
 def run_health_checks():
 
-    # -----------------------------------------------------------------
+   # -----------------------------------------------------------------
     # API Token 
     #
     # Check if the 'Authorization' header is present in the request
