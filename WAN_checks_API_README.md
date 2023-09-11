@@ -1,11 +1,18 @@
 ## **Network Health Check API Script Documentation** 
 
-This script is designed to perform various health checks on network devices using Netmiko library and Flask. 
-It connects to the devices, retrieves relevant information, and performs checks related to interface status, ping connectivity, BGP routing, and more.
+This script performs various health checks on network devices using the Netmiko library and Flask.
+It connects to the devices, retrieves relevant information, and performs checks related to
+interface status, ping connectivity, BGP routing, and more.
 
-The JSON POST request to the API endpoint can be made by using Postman or Power Automate, to the request URL: `http://localhost:5000/wanchecks/`. 
+The JSON POST requests can be made by using Postman or Power Automate to the URL: http://localhost:5000/wanchecks/
+The code always checks the 'Authorization' header upon a POST API call and validates the provided token.
 
+This script is divided into several functions for different aspects of health checks, including
+interface status, ping tests, and BGP checks. Each function is documented to describe its purpose
+and usage.
 
+![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_wan_healthchecks/blob/92a18e6ddde6a4bda41e9486543acf33eb20887f/WAN_checks_API.jpg
+nssm service)
 ### **Prerequisites** 
 
 Before running the script, make sure you have the following prerequisites:

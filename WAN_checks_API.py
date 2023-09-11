@@ -5,7 +5,7 @@ This script performs various health checks on network devices using the Netmiko 
 It connects to the devices, retrieves relevant information, and performs checks related to
 interface status, ping connectivity, BGP routing, and more.
 
-The JSON POST request can be made by using Postman or Power Automate to the URL: http://localhost:5000/wanchecks/
+The JSON POST requests can be made by using Postman or Power Automate to the URL: http://localhost:5000/wanchecks/
 The code always checks the 'Authorization' header upon a POST API call and validates the provided token.
 
 This script is divided into several functions for different aspects of health checks, including
