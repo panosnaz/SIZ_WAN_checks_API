@@ -6,6 +6,7 @@ exe/
 output_files/
 config.py
 *.env
+*.spec
 *.pem
 *.docx
 *.drawio
