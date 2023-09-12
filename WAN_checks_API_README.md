@@ -53,7 +53,7 @@ Before running the script, make sure you have the following prerequisites:
 	- In the Headers section, the Content-Type header value must be set to application/json 
 	- Make sure to include the Authorization header with the correct token.
 
-Example JSON data:
+JSON data examples:
 
 `
 {
@@ -61,6 +61,15 @@ Example JSON data:
   "tenant_type": "MMM",
   "provider": "OTE",
   "bgp_neighbor": "80.80.80.80,90.90.90.90"
+}
+`
+
+`
+{
+"device_ip": "172.23.0.1", 
+"tenant_type": "APLOS", 
+"provider": "OTE",
+"bgp_neighbor": ""
 }
 `
 
