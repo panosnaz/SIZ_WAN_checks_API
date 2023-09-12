@@ -40,8 +40,6 @@ Before running the script, make sure you have the following prerequisites:
 	- Other necessary configurations for your network.
 	
 - Update the device_login() function with the appropriate login credentials for your devices or create a config.py file and define there the username and password variables.
-- Modify the parameters in the main() function based on your network setup.
-- Customize the health checks performed in the def_int_checks(), def_ping_checks(), asym_bgp_checks() and mmm_bgp_checks() functions.
 
 4. Start the Flask application by running the following command:
 
