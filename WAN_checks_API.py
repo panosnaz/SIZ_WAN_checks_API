@@ -161,8 +161,6 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
     vlan3000_ping_output = ""
     vlan3100_ping_output = ""
     
-    
-
     # Initialize a list to store the ping_outputs for each host
     Lo0_ping_outputs = []
     Lo0_ping_results = []
