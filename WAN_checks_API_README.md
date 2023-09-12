@@ -33,6 +33,12 @@ Before running the script, make sure you have the following prerequisites:
 
 3. Configure the devices and health check parameters in the WAN_checks_API.py file:
 
+- Create a config.py file with the following configurations:
+	- username: Your device username.
+	- password: Your device password.
+	- AUTH_TOKEN: Authorization token for API access.
+	- Other necessary configurations for your network.
+	
 - Update the device_login() function with the appropriate login credentials for your devices or create a config.py file and define there the username and password variables.
 - Modify the parameters in the main() function based on your network setup.
 - Customize the health checks performed in the def_int_checks(), def_ping_checks(), asym_bgp_checks() and mmm_bgp_checks() functions.
@@ -41,12 +47,27 @@ Before running the script, make sure you have the following prerequisites:
 
 `python WAN_checks_API.py`
 
-5. Send a JSON POST request to the API endpoint using tools like Postman or Power Automate:
+5. Send a POST request with JSON data using tools like Postman or Power Automate:
 
 	- URL: http://localhost:5000/wanchecks/
 	- Method: POST
 	- Request body: JSON payload containing the required parameters
 	- In the Headers section, the Content-Type header value must be set to application/json 
+	- Make sure to include the Authorization header with the correct token.
+
+Example JSON data:
+
+`
+{
+  "device_ip": "192.168.0.1",
+  "tenant_type": "MMM",
+  "provider": "OTE",
+  "bgp_neighbor": "80.80.80.80,90.90.90.90"
+}
+`
+
+- You will receive a JSON response with the results of the health checks.
+
 
 6. 
 - The script will connect to the specified device, perform health checks, and return a health check report and a show run text files in the json response.
@@ -101,17 +122,6 @@ The API will respond with a JSON object containing below network health check re
 
 `bgp_neighbor_output` (array): The outputs of the BGP neighbor checks.
 
-
-#### **Example Request** 
-
-`
-{
-  "device_ip": "192.168.0.1",
-  "tenant_type": "MMM",
-  "provider": "OTE",
-  "bgp_neighbor": "80.80.80.80,90.90.90.90"
-}
-`
 
 
 ### **Authors** 

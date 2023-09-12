@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: WAN_checks_API_v1.3.2.exe
+# EXE Version: WAN_checks_API_v1.3.3.exe
 
 """
 
@@ -33,8 +33,10 @@ from flask import Flask, request, jsonify
 import json
 from config import username, password  # Import credentials from config.py
 from config import AUTH_TOKEN          # Import API token
-# Import the IP addresses of BGP neighbors for different providers for for Aplos & PSD tenants
+# Import the IP addresses of BGP neighbors for different providers for for Aplos & PSD tenants from config.py
 from config import ote_bgp_neighbor, wind_bgp_neighbor, wind_bgp_v6_neighbor, nova_bgp_neighbor, nova_bgp_v6_neighbor, vodafone_bgp_neighbor, vodafone_bgp_v6_neighbor
+# Import the data_vlan_hosts and voice_vlan_hosts dictionaries from config.py
+from config import data_vlan_hosts, voice_vlan_hosts
 
 # Logging console to 'console_log.txt'
 # ------------------------------------
@@ -159,23 +161,7 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
     vlan3000_ping_output = ""
     vlan3100_ping_output = ""
     
-    #with ConnectHandler(**device) as net_connect:
-
-    # Define the list of hosts to ping
-    data_vlan_hosts = {
-        "DC1_NTPv4": "84.205.218.190",
-        "DC2_NTPv4": "84.205.219.190",
-        "DC2_device_DNSv4": "84.205.219.141",
-        "DC1_NTPv6": "2A10:D000:14:600::3E",
-        "DC2_NTPv6": "2A10:D000:1C:600::3E"
-    }
-    voice_vlan_hosts = {
-        "DC1_NTPv6": "2A10:D000:14:600::3E",
-        "DC2_NTPv6": "2A10:D000:1C:600::3E",
-        "DC2_user_DNSv4": "84.205.219.140",
-        "Call_Manager_v6_1": "2A10:D000:10:B:C000:0:54CD:D6AB",
-        "Call_Manager_v6_2": "2A10:D000:10:B:C000:0:54CD:D6AA"
-    }
+    
 
     # Initialize a list to store the ping_outputs for each host
     Lo0_ping_outputs = []
@@ -192,7 +178,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
     
     PING_REPORT = "OK"  # Assume all pings are successful initially
 
-    # NTPv4 ping test from Lo0
+    print("\nLoopback0 - Data VLAN Hosts:")
+    # ping test from Lo0
     # each key in the hosts dictionary is assigned to the variable host_name and each value in the dictionary is assigned to the variable host_ip
     for host_name, host_ip in data_vlan_hosts.items():
         Lo0_ping = f"ping {host_ip} source Lo0"
@@ -210,7 +197,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
             PING_REPORT = "FAIL"
 
     if 'vlan200' in interface_list:
-        # NTPv4 ping test from vlan200 - voice vlan
+        print("\nVLAN200 - Voice VLAN Hosts:")
+        # ping test from vlan200 - voice vlan
         for host_name, host_ip in voice_vlan_hosts.items():
 
             vlan200_ping = f"ping {host_ip} source vlan200"
@@ -228,7 +216,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
                 PING_REPORT = "FAIL"             
         
     elif 'vlan3100' in interface_list:
-        # NTPv4 ping test from vlan3100 - voice vlan
+        print("\nVLAN3100 - Voice VLAN Hosts:")
+        # ping test from vlan3100 - voice vlan
         for host_name, host_ip in voice_vlan_hosts.items():
 
             # the vlan3100_ping test will only be performed for IPv6 addresses when the tenant_type is "APLOS"
@@ -266,7 +255,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
             
         # Απλος Ασυμμετρος
         if tenant_type == "APLOS":
-            # NTPv4 ping test from vlan3000 - data vlan
+            print("\nVLAN3000 - Data VLAN Hosts:")
+            # ping test from vlan3000 - data vlan
             for host_name, host_ip in data_vlan_hosts.items():
         
                 vlan3000_ping = f"ping {host_ip} source vlan3000"
@@ -331,6 +321,8 @@ def asym_bgp_checks(device, provider, net_connect):
         ipv4_neighbor = vodafone_bgp_neighbor
         ipv6_neighbor = vodafone_bgp_v6_neighbor
     
+    print("\nBGP checks:")
+
     # check BGPv4 status
     v4_neighbor_command = f'show ip bgp neighbor {ipv4_neighbor}\n'
     bgp_output = net_connect.send_command(v4_neighbor_command)
@@ -413,7 +405,7 @@ def mmm_bgp_checks(device, bgp_neighbor, net_connect):
     Returns:
         tuple: A tuple containing BGP results, BGP neighbor output, and BGP report.
     """
-
+    print("\nBGP checks:")
     print(f"BGP neighbor(s): {bgp_neighbor}")  
 
     #with ConnectHandler(**device) as net_connect:
@@ -508,7 +500,6 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     LICENSE_REPORT = "OK" 
 
     cprint(f"CPE Router hostname is: {hostname}", 'green')
-
     # Extract S/N & image
     output = net_connect.send_command("show version")
     serial_number_match = re.search(r"Processor board ID\s+(\S+)", output)
@@ -516,7 +507,7 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     if serial_number_match and system_image_match:
         serial_number = serial_number_match.group(1)
         system_image = system_image_match.group(1)
-        print("Serial number: ", end='')
+        print("\nSerial number: ", end='')
         cprint(serial_number, 'yellow')
         print("System image: ", end='')
         cprint(system_image, 'yellow')
