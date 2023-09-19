@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: WAN_checks_API_v1.3.3.exe
+# EXE Version: WAN_checks_API_v1.3.4.exe
 
 """
 
@@ -111,7 +111,7 @@ def def_int_checks(tenant_type, device, net_connect):
     if tenant_type == "APLOS":
         interface_list = ['vlan3000', 'vlan3100']
     elif tenant_type == "PSD":
-        interface_list = ['vlan3000']
+        interface_list = ['vlan3100']
     elif tenant_type == "MMM":
         interface_list = ['vlan3000']
         # check whether tenant belongs to EFKA 
@@ -218,8 +218,8 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
         # ping test from vlan3100 - voice vlan
         for host_name, host_ip in voice_vlan_hosts.items():
 
-            # the vlan3100_ping test will only be performed for IPv6 addresses when the tenant_type is "APLOS"
-            if tenant_type == "APLOS":
+            # perform only IPv6 vlan3100 pings for "APLOS" or "PSD" tenants
+            if tenant_type == "APLOS" or "PSD":
                 if "v6" in host_name:  # Checking if it's an IPv6 address
                     vlan3100_ping_v6 = f"ping {host_ip} source vlan3100"
                     vlan3100_output_v6 = net_connect.send_command(vlan3100_ping_v6)
