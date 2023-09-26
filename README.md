@@ -11,7 +11,7 @@ This script is divided into several functions for different aspects of health ch
 interface status, ping tests, and BGP checks. Each function is documented to describe its purpose
 and usage.
 
-![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_wan_healthchecks/blob/d4a4567cdead81eb998324fc95eaa9df80a0f339/WAN%20checks%20API.png)
+![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_WAN_checks_API/blob/83fbef1f9af8a1eda2a810d28260e770c11e35a3/WAN%20checks%20API.png)
 ### **Prerequisites** 
 
 Before running the script, make sure you have the following prerequisites:
