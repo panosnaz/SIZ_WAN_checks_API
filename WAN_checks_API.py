@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: WAN_checks_API_v1.3.4.exe
+# EXE Version: WAN_checks_API_v1.3.5.exe
 
 """
 
@@ -496,8 +496,11 @@ def main(tenant_type, device, hostname, net_connect, provider, bgp_neighbor):
     """
 
     LICENSE_REPORT = "OK" 
+    license_status = ""  # Initialize the license_status variable
 
     cprint(f"CPE Router hostname is: {hostname}", 'green')
+    cprint(f"Tenant type is: {tenant_type}\n", 'green')
+
     # Extract S/N & image
     output = net_connect.send_command("show version")
     serial_number_match = re.search(r"Processor board ID\s+(\S+)", output)
