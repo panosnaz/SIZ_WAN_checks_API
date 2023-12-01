@@ -5,7 +5,7 @@ exe/
 **/*.exe
 output_files/
 config.py
-/wan_checks.py
+wan_checks.py
 *.env
 *.spec
 *.pem
