@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: WAN_checks_API_v1.3.5.exe
+# EXE Version: WAN_checks_API_v1.3.6.exe
 
 """
 
