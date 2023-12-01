@@ -25,6 +25,7 @@ and usage.
 - The Flask response includes the JSON-serialized results, the HTTP status code (200 for successful response), and the content type header.
 
 This architecture allows external systems or tools, such as Power Automate, to send JSON POST requests to the API endpoint. The script processes these requests, performs health checks on the specified network device, and returns the results in JSON format.
+Additional steps can be configured to upload TXT health check files to SharePoint using Power Automate and send a notification in Microsoft Teams with a message to notify about the check results.
 
 ![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_WAN_checks_API/blob/83fbef1f9af8a1eda2a810d28260e770c11e35a3/WAN%20checks%20API.png)
 ### **Prerequisites** 
