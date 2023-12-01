@@ -13,14 +13,14 @@ This script is divided into several functions for different aspects of health ch
 interface status, ping tests, and BGP checks. Each function is documented to describe its purpose
 and usage.
 
-- When a valid POST request is received, the Flask route function run_health_checks() is executed.
-  The function retrieves the required data from the incoming JSON payload, such as device_ip, tenant_type, provider, and bgp_neighbor.
+- When a valid POST request is received, the Flask route function `run_health_checks()` is executed.
+  The function retrieves the required data from the incoming JSON payload, such as `device_ip`, `tenant_type`, `provider`, and `bgp_neighbor`.
 
-- The main() function is responsible for executing various health checks on the network device. It takes parameters such as tenant_type, device, hostname, net_connect, provider, and bgp_neighbor.
+- The `main()` function is responsible for executing various health checks on the network device. It takes parameters such as `tenant_type`, `device`, `hostname`, `net_connect`, `provider`, and `bgp_neighbor`.
 
-- The main() function orchestrates the execution of health checks, including interface status checks, ping tests, BGP checks, and license status checks.
+- The `main()` function orchestrates the execution of health checks, including interface status checks, ping tests, BGP checks, and license status checks.
 
-- The results of the health checks are stored in a dictionary (json_return_output), which includes information about the device, health check results, and other relevant details.
+- The results of the health checks are stored in a dictionary (`json_return_output`), which includes information about the device, health check results, and other relevant details.
 
 - The Flask response includes the JSON-serialized results, the HTTP status code (200 for successful response), and the content type header.
 
