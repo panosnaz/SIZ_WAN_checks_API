@@ -1,15 +1,30 @@
-## **Network Health Check API Script Documentation** 
+## **Network Health Check API Script using Python3, JSON, and Power Automate** 
 
 This script performs various health checks on network devices using the Netmiko library and Flask.
-It connects to the devices, retrieves relevant information, and performs checks related to
+It is designed to run as an executable (.exe) on a server environment. 
+The script connects to the devices, retrieves relevant information, and performs checks related to
 interface status, ping connectivity, BGP routing, and more.
 
 The JSON POST requests can be made by using Postman or Power Automate to the URL: http://localhost:5000/wanchecks/
 The code always checks the 'Authorization' header upon a POST API call and validates the provided token.
+If the header is missing or the provided token doesn't match the expected token (AUTH_TOKEN), the script returns a 401 Unauthorized response.
 
 This script is divided into several functions for different aspects of health checks, including
 interface status, ping tests, and BGP checks. Each function is documented to describe its purpose
 and usage.
+
+- When a valid POST request is received, the Flask route function run_health_checks() is executed.
+  The function retrieves the required data from the incoming JSON payload, such as device_ip, tenant_type, provider, and bgp_neighbor.
+
+- The main() function is responsible for executing various health checks on the network device. It takes parameters such as tenant_type, device, hostname, net_connect, provider, and bgp_neighbor.
+
+- The main() function orchestrates the execution of health checks, including interface status checks, ping tests, BGP checks, and license status checks.
+
+- The results of the health checks are stored in a dictionary (json_return_output), which includes information about the device, health check results, and other relevant details.
+
+- The Flask response includes the JSON-serialized results, the HTTP status code (200 for successful response), and the content type header.
+
+This architecture allows external systems or tools, such as Power Automate, to send JSON POST requests to the API endpoint. The script processes these requests, performs health checks on the specified network device, and returns the results in JSON format.
 
 ![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_WAN_checks_API/blob/83fbef1f9af8a1eda2a810d28260e770c11e35a3/WAN%20checks%20API.png)
 ### **Prerequisites** 
@@ -25,7 +40,7 @@ Before running the script, make sure you have the following prerequisites:
 ### **Usage** 
 
 1. Clone the script repository:
-`https://github.com/panosnaz/SIZ_wan_healthchecks.git`
+`https://github.com/panosnaz/SIZ_WAN_checks_API.git`
 
 2. Install the required dependencies:
 
@@ -41,11 +56,11 @@ Before running the script, make sure you have the following prerequisites:
 	
 - Update the device_login() function with the appropriate login credentials for your devices or create a config.py file and define there the username and password variables.
 
-4. Start the Flask application by running the following command:
+4. Use an executable version (.exe) of this script for easy deployment on a server, or start the Flask application by running the following command:
 
 `python WAN_checks_API.py`
 
-5. Send a POST request with JSON data using tools like Postman or Power Automate:
+5. Send a POST request with appropriate JSON data using tools like Postman or Power Automate:
 
 	- URL: http://localhost:5000/wanchecks/
 	- Method: POST
@@ -85,6 +100,12 @@ JSON data examples:
 - Otherwise, it will return a 401 Unauthorized response with an error message.
 
 
+#### **Important Note**
+
+Security Considerations: 
+This script is designed for internal usage. 
+The Flask application is set to run on localhost for security reasons. 
+If you intend to expose this script publicly, adjust the host and port settings accordingly and implement proper security measures.
 	
 ### **Endpoints**
 
@@ -130,6 +151,10 @@ The API will respond with a JSON object containing below network health check re
 `bgp_neighbor_output` (array): The outputs of the BGP neighbor checks.
 
 
+
+### **Detailed Information**
+
+For detailed information on each function and usage, refer to the respective docstrings within the code.
 
 ### **Authors** 
 

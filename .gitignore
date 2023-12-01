@@ -6,6 +6,7 @@ exe/
 output_files/
 config.py
 wan_checks.py
+wan_checks_README.md
 *.env
 *.spec
 *.pem
