@@ -19,7 +19,7 @@ Usage:
 
 For detailed information on each function and usage, refer to the respective docstrings within the code.
 
-# EXE Version: WAN_checks_API_v1.3.6.exe
+# EXE Version: WAN_checks_API_v1.3.7.exe
 
 """
 
@@ -181,7 +181,7 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
     # each key in the hosts dictionary is assigned to the variable host_name and each value in the dictionary is assigned to the variable host_ip
     for host_name, host_ip in data_vlan_hosts.items():
         Lo0_ping = f"ping {host_ip} source Lo0"
-        Lo0_output = net_connect.send_command(Lo0_ping)
+        Lo0_output = net_connect.send_command(Lo0_ping, read_timeout= 15)
         Lo0_ping_output = Lo0_ping + "\n" + Lo0_output + "\n"
         # Append the Lo0_ping_output to the list
         Lo0_ping_outputs.append(Lo0_ping_output)
