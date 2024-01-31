@@ -237,7 +237,7 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
                 continue
 
             vlan3100_ping = f"ping {host_ip} source vlan3100"
-            vlan3100_output = net_connect.send_command(vlan3100_ping)
+            vlan3100_output = net_connect.send_command(vlan3100_ping, read_timeout= 15)
             vlan3100_ping_output = vlan3100_ping + "\n" + vlan3100_output + "\n"
             # Append the vlan3000_ping_output to the list
             vlan3100_ping_outputs.append(vlan3100_ping_output)
@@ -258,7 +258,7 @@ def def_ping_checks(device, net_connect, interface_list, tenant_type):
             for host_name, host_ip in data_vlan_hosts.items():
         
                 vlan3000_ping = f"ping {host_ip} source vlan3000"
-                vlan3000_output = net_connect.send_command(vlan3000_ping)
+                vlan3000_output = net_connect.send_command(vlan3000_ping, read_timeout= 15)
                 vlan3000_ping_output = vlan3000_ping + "\n" + vlan3000_output + "\n"
                 # Append the vlan3000_ping_output to the list
                 vlan3000_ping_outputs.append(vlan3000_ping_output)
