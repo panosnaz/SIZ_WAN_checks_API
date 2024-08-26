@@ -30,7 +30,7 @@ Additional steps can be configured to upload TXT health check files to SharePoin
 Below high-level architecture involves the execution of this Python script as an API endpoint, interactions with Power Automate for file uploads to SharePoint, and communication with Teams for notifications. 
 This architecture ensures a seamless and automated flow of network health information within the specified environment.
 
-![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_WAN_checks_API/blob/83fbef1f9af8a1eda2a810d28260e770c11e35a3/WAN%20checks%20API.png)
+![WAN_checks_API Diagram](https://github.com/panosnaz/SIZ_WAN_checks_API/blob/6627aa7ef3714929b04619c6fa3ac798bee0a579/WAN%20checks%20API_v0.2.png)
 ### **Prerequisites** 
 
 Before running the script, make sure you have the following prerequisites:
