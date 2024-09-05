@@ -97,11 +97,11 @@ JSON data examples:
 
 6. 
 - The script will connect to the specified device, perform health checks, and return a health check report and a show run text files in the json response.
-- If tenant is APLOS or PSD, the script runs bgp tests on a pre-defined bgp neighbor IPs. 
-- In case of a MMM tenant, the POST API should include the appropriate list of BGP neighbor IPs.
+- If tenant is `APLOS` or `PSD`, the script runs bgp tests on a pre-defined bgp neighbor IPs. 
+- In case of a `MMM` tenant, the POST API should include the appropriate list of BGP neighbor IPs.
 - The code always checks the 'Authorization' header upon a POST API call and validates the provided token. 
-- If the 'Authorization' header is present and the provided token matches `AUTH_TOKEN`, the code will proceed with processing the request. 
-- Otherwise, it will return a 401 Unauthorized response with an error message.
+	- If the 'Authorization' header is present and the provided token matches `AUTH_TOKEN`, the code will proceed with processing the request. 
+	- Otherwise, it will return a 401 Unauthorized response with an error message.
 
 
 #### **Important Note**
